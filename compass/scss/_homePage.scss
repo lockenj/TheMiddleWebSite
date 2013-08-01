@@ -1,0 +1,17 @@
+#home_page{  
+  door-frame{
+    height: 620px;   
+  }  
+  #links{
+    padding-top: 15px;
+    text-align: center;
+    .left_link_img{
+      position: relative;
+      left: -9px;
+    }
+    .right_link_img{
+      position: relative;
+      right: -7px;
+    }
+  }        
+}

@@ -1,0 +1,57 @@
+#characters_page{
+  door-frame{
+    position: relative;
+    h1{
+      text-transform: uppercase;
+      font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+      font-size: 24px;
+    }
+    img.full_length{
+      position: absolute;
+      right: 0;
+      bottom: 45px;
+    }
+    #characters_selector{
+      position: relative;
+      width: 551px;
+      height: 140px;
+      background: url('/images/characters/head_shots_box.png');
+      padding-left: 15px;
+      .selection_indicator{
+        position: absolute;
+        bottom: 18px;
+      }
+      .selection_indicator.frankie{
+        left: 12px;
+      }
+      .selection_indicator.mike{
+        left: 128px;
+      }
+      .selection_indicator.axl{
+        left: 230px;
+      }
+      .selection_indicator.sue{
+        left: 332px;
+      }
+      .selection_indicator.brick{
+        left: 434px;
+      }
+    }
+    #characters_description{
+      float: left;
+      h1{
+        font-weight: bold;
+      }
+      scrollable{
+        width: 40%;
+        .scrollable_window{        
+          height: 390px;
+          overflow: hidden;
+        }
+      }
+      .scrollable_btns{
+        right: -35px;
+      }
+    }
+  }
+}

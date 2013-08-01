@@ -1,0 +1,52 @@
+h1,h2,h3,h4,h5,h6,p,span,label,a{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+door-frame{
+  display: block;
+}
+scrollable{
+  position: relative;
+  display: block;  
+}
+.scrollable_window{
+  overflow: hidden;
+}
+.scrollable_content{
+  -webkit-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+  -moz-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+  -ms-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+  -o-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+  transition: all 1s cubic-bezier(.02, .01, .47, 1);
+  /*Ease In Out Back cubic-bezier(0.680, -0.550, 0.265, 1.550)*/
+  /*Swing cubic-bezier(.02, .01, .47, 1)*/
+}
+.scrollable_btns{
+  position: absolute;
+  bottom: 0;
+  right: 0;  
+}
+.scrollable_up_btn:hover,
+.scrollable_down_btn:hover{
+  cursor: pointer;
+}
+.scrollable_up_btn,
+.scrollable_down_btn{
+  width: 24px;
+  height: 11px;  
+}
+.scrollable_up_btn{
+  background: url('/images/up.png');
+  margin-bottom: 4px;
+}
+.scrollable_up_btn:hover,
+.scrollable_up_btn:active{
+  background: url('/images/up_active.png');
+}
+.scrollable_down_btn{
+  background: url('/images/down.png');
+}
+.scrollable_down_btn:hover,
+.scrollable_down_btn:active{
+  background: url('/images/down_active.png');
+}

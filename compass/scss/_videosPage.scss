@@ -1,0 +1,59 @@
+/* layout */
+#videos_page{
+  h1,h2{
+    text-transform: uppercase;
+    font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 24px;
+  }
+  door-frame{
+    float: left;
+    width: 100%;
+  }
+  #video_viewer{
+    float: left;  
+    h1{
+      font-weight: bold;
+    }  
+    h2{
+      color: #ee5f2c;
+    }
+    #video_player{
+      width: 650px;
+      height: 375px;
+    }
+  }
+  #video_selector{
+    float: right;
+            
+    h1{
+      text-align: center; 
+      color: #82b267;   
+    }
+    scrollable{
+      width: 280px;      
+      padding-bottom: 30px;
+      height: 515px;
+      
+      .scrollable_window{
+        height: 465px;
+      }
+
+      li {        
+        border: #82b267 2px solid;                 
+        display: inline-block;
+        margin-right: 5px;
+        margin-bottom: 5px;
+                
+        img{
+          max-width: 130px;
+          max-height: 75px;
+        }
+      } 
+      .scrollable_btns {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+      }
+    }
+  }
+} 

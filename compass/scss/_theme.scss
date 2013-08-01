@@ -1,0 +1,71 @@
+html{
+  background-color: #000;
+  body{
+    background: url('/images/page_background.jpg') no-repeat center top;    
+    #page {
+      /*Background-image is not perfectly centered*/
+      position: relative;
+      left: 13px; 
+      width: 1007px; 
+      > header {
+        > img{
+          padding-left: 25px;
+        }
+        #main_menu{
+          margin-left: 30px;
+          padding-left: 10px;
+          width: 541px;
+          background: url('/images/menu_bar.png') no-repeat center;
+          ul{
+            width: 519px;       
+            li.active a{
+              background: none;
+              color: #000;
+            }
+            li a{
+              font-size: 16px;
+              text-transform: uppercase;            
+              font-weight: bold;
+              padding: 10px 2.5px;        
+              font-family: "HelveticaNeue-Heavy";   
+              color: #ee5f2c; 
+            }
+          }
+        }  
+      } 
+      > #page_main_content{
+        color: #FFF;        
+        min-height: 1100px;
+        .door_frame{
+          background-color: #000;
+          position: relative;
+          padding: 50px 20px;
+          height: 710px;
+         .door_frame_top{
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+          .door_frame_content{
+            padding: 10px;     
+          }  
+          .door_frame_bottom{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+          } 
+        }
+        @import "homePage";
+        @import "videosPage";
+        @import "charactersPage";          
+        @import "episodeGuidePage";
+        @import "downloadsPage";
+      }
+      > footer {
+        li > a:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  } 
+}
