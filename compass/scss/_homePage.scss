@@ -1,8 +1,9 @@
 #home_page{  
-  door-frame{
+  door-frame{    
     height: 620px;
     .door_frame_content{
       position: relative;
+      padding: 0;
       img{
         position: absolute;
         top: 0;

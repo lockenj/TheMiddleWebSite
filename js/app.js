@@ -11,6 +11,9 @@ angular.module('jwplayer', [])
       restrict: 'E',
       template: '<div id="'+id+'" class="jwplayer_content"></div>',
       link: function(scope, element, attrs) { 
+        scope.videoWidth = attrs.width;
+        scope.videoHeight = attrs.height;
+        /*
         var autoStart = false;
         if(attrs.autostart != undefined){
           autoStart = true;
@@ -24,26 +27,30 @@ angular.module('jwplayer', [])
               var videoPlayer = jwplayer(id).setup({
                 file: video.file,
                 image: video.image,
-                /*title: video.name,*/
+                title: video.name,
                 autostart: autoStart,
                 width: attrs.width,
                 height: attrs.height
               });
             }, 0);
-        }, 0);       
-
+        }, 0);*/
+      },
+      controller: function($scope){
         //Receive videoChanged Event
-        scope.$on("JWPLAYER_VIDEO_CHANGED", function(event, eventData) {
+        $scope.$on("JWPLAYER_VIDEO_CHANGED", function(event, eventData) {
           video = eventData.newValue;
           var startNow = false;
           if (eventData.autoStart) {
             startNow = true;
           }
           jwplayer(id).setup({
-            file : video.file,
-            image : video.image,
-            autostart : startNow
-            /*, title: video.name*/
+            file: video.file,
+            image: video.image,
+            width: '100%',
+            aspectratio: '16:9',
+            fallback: true,
+            /*primary: 'flash',*/
+            autostart: startNow
           });
         });
       }

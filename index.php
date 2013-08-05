@@ -1,7 +1,7 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'].'/include/_header.php'; ?>
-<section id="home_page" ng-init="homeVid={'name':'Sound Familiar', 'file':'/content/videos/Main_SoundFamiliar.mp4', 'image':'/images/home/home_page_no_video.jpg'}">  
+<section id="home_page" data-ng-controller="VideosCtrl">  
   <door-frame>
-    <jwplayer autostart width="100%" height="480px" video="homeVid" id="video_player"></jwplayer> 
+    <jwplayer width="100%" height="480px" video="video" id="video_player"></jwplayer> 
     <!--<img src="/images/home/home_page_no_video.jpg" alt="The Middle - your Every Day family" />-->     
   </door-frame>
   <div id="links">
@@ -12,4 +12,10 @@
     <a href="/downloads/#/photos"><img class="right_link_img" src="/images/home/pictures.png"/></a>
   </div>
 </section>
-<?php include_once $_SERVER['DOCUMENT_ROOT'].'/include/_footer.php'; ?>
+<?php
+  if(!isset($scriptsToBeRendered)){
+    $scriptsToBeRendered = array();
+  } 
+  array_push($scriptsToBeRendered,'/js/homePageApp.js');
+  include_once $_SERVER['DOCUMENT_ROOT'].'/include/_footer.php'; 
+?>

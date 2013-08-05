@@ -6011,8 +6011,9 @@ html body #page > #page_main_content #home_page door-frame {
 /* line 4, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page door-frame .door_frame_content {
   position: relative;
+  padding: 0;
 }
-/* line 6, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 7, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page door-frame .door_frame_content img {
   position: absolute;
   top: 0;
@@ -6020,26 +6021,26 @@ html body #page > #page_main_content #home_page door-frame .door_frame_content i
   width: 1007px;
   height: 528px;
 }
-/* line 15, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 16, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page #links {
   padding-top: 15px;
   text-align: center;
 }
-/* line 18, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 19, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page #links img:hover {
   opacity: 0.8;
 }
-/* line 22, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 23, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page #links .left_link_img,
 html body #page > #page_main_content #home_page #links .right_link_img {
   margin-top: 15px;
 }
-/* line 25, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 26, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page #links .left_link_img {
   position: relative;
   left: -17px;
 }
-/* line 29, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 30, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page #links .right_link_img {
   position: relative;
   right: -9px;
@@ -6058,57 +6059,58 @@ html body #page > #page_main_content #videos_page door-frame {
 /* line 12, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_viewer {
   float: left;
+  width: 70%;
 }
-/* line 14, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 15, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_viewer h1 {
   font-weight: bold;
 }
-/* line 17, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 18, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_viewer h2 {
   color: #ee5f2c;
 }
-/* line 20, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 21, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_viewer #video_player {
   width: 650px;
   height: 375px;
 }
-/* line 25, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 26, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector {
   float: right;
 }
-/* line 28, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 29, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector h1 {
   text-align: center;
   color: #82b267;
 }
-/* line 32, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 33, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector scrollable {
   width: 280px;
   padding-bottom: 30px;
   height: 515px;
 }
-/* line 37, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 38, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector scrollable .scrollable_window {
   height: 465px;
 }
-/* line 41, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 42, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector scrollable li {
   border: #82b267 2px solid;
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 5px;
 }
-/* line 47, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 48, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector scrollable li img {
   max-width: 130px;
   height: 75px;
 }
-/* line 51, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 52, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector scrollable li img:hover {
   cursor: pointer;
   opacity: 0.8;
 }
-/* line 56, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 57, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector scrollable .scrollable_btns {
   position: absolute;
   bottom: 10px;
