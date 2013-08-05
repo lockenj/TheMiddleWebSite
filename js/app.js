@@ -6,31 +6,46 @@ angular.module('jwplayer', [])
       uniqueId = window.jwplayerUniqueId ++;
     }
     var id = 'jwplayer_content_'+uniqueId;
+        
     return {
       restrict: 'E',
       template: '<div id="'+id+'" class="jwplayer_content"></div>',
       link: function(scope, element, attrs) { 
-      //After content has been rendered
-      $timeout(function () {
-          $timeout(function () {
-            // This code will run after templateUrl has been loaded, cloned and transformed by directives, and properly rendered by the browser
-            var video = scope[attrs.video];
-            
-            var videoPlayer = jwplayer(id).setup({
-              file: video.file,
-              image: video.image,
-              /*title: video.name,*/
-              width: attrs.width,
-              height: attrs.height
-            });
-          }, 0);
-      }, 0);       
-        
-       //Receive videoChanged Event
-       scope.$on("JWPLAYER_VIDEO_CHANGED", function(event, eventData){
-         video = eventData.newValue;
-         jwplayer(id).setup({ file: video.file, image: video.image/*, title: video.name*/ });
-       });
+        var autoStart = false;
+        if(attrs.autostart != undefined){
+          autoStart = true;
+        }
+        //After content has been rendered
+        $timeout(function () {
+            $timeout(function () {
+              // This code will run after templateUrl has been loaded, cloned and transformed by directives, and properly rendered by the browser
+              var video = scope[attrs.video];
+              
+              var videoPlayer = jwplayer(id).setup({
+                file: video.file,
+                image: video.image,
+                /*title: video.name,*/
+                autostart: autoStart,
+                width: attrs.width,
+                height: attrs.height
+              });
+            }, 0);
+        }, 0);       
+
+        //Receive videoChanged Event
+        scope.$on("JWPLAYER_VIDEO_CHANGED", function(event, eventData) {
+          video = eventData.newValue;
+          var startNow = false;
+          if (eventData.autoStart) {
+            startNow = true;
+          }
+          jwplayer(id).setup({
+            file : video.file,
+            image : video.image,
+            autostart : startNow
+            /*, title: video.name*/
+          });
+        });
       }
     };
   });

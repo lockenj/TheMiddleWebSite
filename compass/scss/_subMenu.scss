@@ -14,10 +14,10 @@
     background: url('/images/episode_guide/season_menu.png');
     padding-top: 10px;
     padding-left: 12px;
+    text-align: left;    
     
     .sub_menu_item{
-      position: relative;
-      /*text-align: right;*/      
+      position: relative;      
       width: 165px;
       height: 35px;
       background: center bottom no-repeat url('/images/episode_guide/seperator.png');
@@ -28,8 +28,8 @@
       &:hover{
         cursor: pointer;
       }
-      h2{
-        /*margin-right: 15px;*/
+      h2{      
+        margin-left: 25px;  
         font-weight: bold;
         text-transform: uppercase;
         font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -37,9 +37,9 @@
         color: #282b14;
       }
       .selection_indicator{
-        position: relative;
+        position: absolute;
         left: 5px;
-        top: -2px;          
+        top: 4px;          
       }          
     }
   }

@@ -9,11 +9,9 @@
       <div class="sub_menu">
         <div class="sub_menu_item" 
           data-ng-repeat="option in menuOptions" 
-          data-ng-click="setSelectedMenuOption(option)">
-          <h2>
-            <img class="selection_indicator" src="/images/selection_indicator.png" data-ng-show="isActiveOption(option)"/>
-            {{option.label}}
-          </h2>          
+          data-ng-click="changeLocation(option)">
+          <img class="selection_indicator" src="/images/selection_indicator.png" data-ng-show="isActiveOption(option)"/>
+          <h2>{{option.label}}</h2>
         </div>
       </div>   
   </door-frame>

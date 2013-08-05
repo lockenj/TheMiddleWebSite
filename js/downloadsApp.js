@@ -1,20 +1,23 @@
 app.config(function ($routeProvider) {
   $routeProvider
-  .when('/photos', {
-    templateUrl:'/downloads/partials/photos.html',
-    controller: 'PhotosCtrl'
-  })
-  .when('/wallpapers', {
-    templateUrl:'/downloads/partials/wallpapers.html',
-    controller: 'WallpapersCtrl'
-  })
-  .when('/avatars', {
-    templateUrl:'/downloads/partials/avatars.html',
-    controller: 'AvatarsCtrl'
-  })
-  .otherwise({
-    redirectTo:'/photos'
-  });
+    .when('/photos', {
+      templateUrl:'/downloads/partials/photos.html',
+      controller: 'PhotosCtrl',
+      name: 'photos'
+    })
+    .when('/wallpapers', {
+      templateUrl:'/downloads/partials/wallpapers.html',
+      controller: 'WallpapersCtrl',
+      name: 'wallpapers'
+    })
+    .when('/avatars', {
+      templateUrl:'/downloads/partials/avatars.html',
+      controller: 'AvatarsCtrl',
+      name: 'avatars'
+    })
+    .otherwise({
+      redirectTo:'/photos'
+    });
 });
 
 /*PHOTOS*/
@@ -127,20 +130,26 @@ app.controller('DownloadsCtrl', function($scope, $location) {
       {label: "Avatars", location: "/avatars"},
     ],
     selectedMenuOption: undefined,
-    getLocationClass: function(path) {
+    getSelectedOptionNameFromLocation: function() {
       var path = $location.path();
       return path.substr(1, path.length);
     },
     menuClicked: function(menuOption){      
       $location.path(menuOption.location)
     },
-    setSelectedMenuOption: function(option){
-      $scope.selectedMenuOption = option;
+    changeLocation: function(option){      
       $scope.menuClicked(option);
     } ,
     isActiveOption: function(option){
       return angular.equals($scope.selectedMenuOption, option);
     }
   });
-  $scope.setSelectedMenuOption($scope.menuOptions[0]);
+  //On location change
+  $scope.$on('$routeChangeStart', function(event, nextRoute, currentRoute) {            
+    _.find($scope.menuOptions, function(opt){
+      if(opt.label.toLowerCase() === nextRoute.name.toLowerCase()){
+        $scope.selectedMenuOption = opt;
+      }
+    });
+  });
 });

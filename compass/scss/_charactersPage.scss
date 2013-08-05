@@ -20,6 +20,11 @@
         position: relative;
         display: inline-block;
         text-align: center;
+        > img:hover{
+          cursor: pointer;
+          opacity: 0.8;
+        }
+        
         >h4{          
           color: #000;
           text-transform: uppercase;

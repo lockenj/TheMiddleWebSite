@@ -14,6 +14,7 @@
   	</section>
   	<!-- Render Javascript -->
   	<script src="/js/libs/jquery.min.js"></script>
+  	<script src="/js/libs/lodash.min.js"></script>
   	<script src="/js/libs/angularjs.min.js"></script>
   	<script src="/js/libs/angular-ui-bootstrap-custom.min.js"></script>
   	<script src="/js/libs/modernizr.min.js"></script>

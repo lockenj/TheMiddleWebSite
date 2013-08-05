@@ -20,7 +20,8 @@ app.controller('VideosCtrl', function($scope,$http) {
   $scope.$watch('selectedVideo', function(newValue, oldValue) {
     $scope.$broadcast('JWPLAYER_VIDEO_CHANGED', {
       newValue: newValue,
-      oldValue: oldValue
+      oldValue: oldValue,
+      autoStart: true
     });
   },true);
 });
