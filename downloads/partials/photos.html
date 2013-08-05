@@ -1,0 +1,8 @@
+<div id="photos">
+  <h1>Photos</h1>    
+  <scrollable>
+    <a class="photo" href="{{image.large}}" data-lightbox="photos" data-ng-repeat="image in photosFctry.getPhotos()">
+      <img class="thumb" ng-src="{{image.thumb}}"/>
+    </a>
+  </scrollable>
+</div>

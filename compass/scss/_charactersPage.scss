@@ -1,11 +1,10 @@
 #characters_page{
   door-frame{
     position: relative;
-    h1{
+    h1,h4{
       text-transform: uppercase;
-      font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-      font-size: 24px;
-    }
+      font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;      
+    }    
     img.full_length{
       position: absolute;
       right: 0;
@@ -16,11 +15,22 @@
       width: 551px;
       height: 140px;
       background: url('/images/characters/head_shots_box.png');
-      padding-left: 15px;
+      padding-left: 17px;
+      > div{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        >h4{          
+          color: #000;
+          text-transform: uppercase;
+          font-weight: bold;
+          margin: 0;
+        }
+      }
       .selection_indicator{
         position: absolute;
-        bottom: 18px;
-      }
+        bottom: 18px;        
+      }     
       .selection_indicator.frankie{
         left: 12px;
       }
@@ -28,14 +38,14 @@
         left: 128px;
       }
       .selection_indicator.axl{
-        left: 230px;
-      }
-      .selection_indicator.sue{
-        left: 332px;
+        left: 237px;
       }
       .selection_indicator.brick{
-        left: 434px;
+        left: 330px;
       }
+      .selection_indicator.sue{
+        left: 445px;
+      } 
     }
     #characters_description{
       float: left;

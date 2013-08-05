@@ -1,27 +1,12 @@
-app.factory("CharactersFctry",function(){
-  var characters = [    
-    {
-      name: 'frankie',
-      description: 'FRANKIE / PATRICIA HEATON'
-    },
-    {
-      name: 'mike',
-      description: 'MIKE / NEIL FLYNN'
-    },
-    {
-      name: 'axl',
-      description: 'AXL / CHARLIE McDERMOTT' 
-    },
-    {
-      name: 'sue',
-      description: 'BRICK / ATICUS SHAFFER'
-    },
-    {
-      name: 'brick',
-      description: 'SUE / EDEN SHER'
-    }
-  ];
-  var selectedCharacter = characters[0];
+app.factory("CharactersFctry", ['$http', function($http){
+  var characters;
+  var selectedCharacter;
+  
+  $http.get("/content/characters/characters.json").success(function(data) {
+    characters = data;
+    selectedCharacter = characters[0];
+  });
+  
   return {
     getCharacters: function(){
       return characters;
@@ -33,7 +18,7 @@ app.factory("CharactersFctry",function(){
       selectedCharacter = character;
     }
   }
-});
+}]);
 
 app.controller('CharactersCtrl', function($scope, CharactersFctry) {
   $scope.charactersFctry = CharactersFctry;  

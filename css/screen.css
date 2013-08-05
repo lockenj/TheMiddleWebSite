@@ -4047,7 +4047,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  display: none;
+  display: block;
   overflow: auto;
   overflow-y: scroll;
 }
@@ -4102,46 +4102,47 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1030;
-  background-color: #000000;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 3399, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3400, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
 
-/* line 3404, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3405, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-backdrop.fade.in {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
-/* line 3409, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3410, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-header {
   min-height: 16.428571429px;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 3415, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3416, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-header .close {
   margin-top: -2px;
 }
 
-/* line 3419, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3420, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-title {
   margin: 0;
   line-height: 1.428571429;
 }
 
-/* line 3424, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3425, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-body {
   position: relative;
   padding: 20px;
 }
 
-/* line 3429, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3430, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-footer {
   padding: 19px 20px 20px;
   margin-top: 15px;
@@ -4149,48 +4150,48 @@ button.close {
   border-top: 1px solid #e5e5e5;
 }
 
-/* line 3437, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3438, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-footer:before,
 .modal-footer:after {
   display: table;
   content: " ";
 }
 
-/* line 3442, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3443, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-footer:after {
   clear: both;
 }
 
-/* line 3447, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3448, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-footer:before,
 .modal-footer:after {
   display: table;
   content: " ";
 }
 
-/* line 3452, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3453, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-footer:after {
   clear: both;
 }
 
-/* line 3456, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3457, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-footer .btn + .btn {
   margin-bottom: 0;
   margin-left: 5px;
 }
 
-/* line 3461, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3462, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
 
-/* line 3465, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3466, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 3470, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 3471, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .modal-dialog {
     right: auto;
     left: 50%;
@@ -4200,13 +4201,13 @@ button.close {
     margin-left: -280px;
   }
 
-  /* line 3478, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 3479, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 }
-/* line 3484, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3485, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip {
   position: absolute;
   z-index: 1030;
@@ -4218,37 +4219,37 @@ button.close {
   visibility: visible;
 }
 
-/* line 3495, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3496, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.in {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 3500, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3501, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.top {
   padding: 5px 0;
   margin-top: -3px;
 }
 
-/* line 3505, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3506, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.right {
   padding: 0 5px;
   margin-left: 3px;
 }
 
-/* line 3510, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3511, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.bottom {
   padding: 5px 0;
   margin-top: 3px;
 }
 
-/* line 3515, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3516, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.left {
   padding: 0 5px;
   margin-left: -3px;
 }
 
-/* line 3520, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3521, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
@@ -4259,7 +4260,7 @@ button.close {
   border-radius: 4px;
 }
 
-/* line 3530, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3531, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -4268,7 +4269,7 @@ button.close {
   border-style: solid;
 }
 
-/* line 3538, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3539, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
@@ -4277,7 +4278,7 @@ button.close {
   border-width: 5px 5px 0;
 }
 
-/* line 3546, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3547, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   left: 5px;
@@ -4285,7 +4286,7 @@ button.close {
   border-width: 5px 5px 0;
 }
 
-/* line 3553, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3554, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.top-right .tooltip-arrow {
   right: 5px;
   bottom: 0;
@@ -4293,7 +4294,7 @@ button.close {
   border-width: 5px 5px 0;
 }
 
-/* line 3560, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3561, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
@@ -4302,7 +4303,7 @@ button.close {
   border-width: 5px 5px 5px 0;
 }
 
-/* line 3568, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3569, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
@@ -4311,7 +4312,7 @@ button.close {
   border-width: 5px 0 5px 5px;
 }
 
-/* line 3576, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3577, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
@@ -4320,7 +4321,7 @@ button.close {
   border-width: 0 5px 5px;
 }
 
-/* line 3584, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3585, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   left: 5px;
@@ -4328,7 +4329,7 @@ button.close {
   border-width: 0 5px 5px;
 }
 
-/* line 3591, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3592, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   right: 5px;
@@ -4336,7 +4337,7 @@ button.close {
   border-width: 0 5px 5px;
 }
 
-/* line 3598, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3599, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover {
   position: absolute;
   top: 0;
@@ -4358,27 +4359,27 @@ button.close {
   -moz-bg-clip: padding;
 }
 
-/* line 3619, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3620, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.top {
   margin-top: -10px;
 }
 
-/* line 3623, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3624, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.right {
   margin-left: 10px;
 }
 
-/* line 3627, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3628, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.bottom {
   margin-top: 10px;
 }
 
-/* line 3631, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3632, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.left {
   margin-left: -10px;
 }
 
-/* line 3635, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3636, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover-title {
   padding: 8px 14px;
   margin: 0;
@@ -4390,12 +4391,12 @@ button.close {
   border-radius: 5px 5px 0 0;
 }
 
-/* line 3646, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3647, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover-content {
   padding: 9px 14px;
 }
 
-/* line 3651, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3652, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover .arrow,
 .popover .arrow:after {
   position: absolute;
@@ -4406,18 +4407,18 @@ button.close {
   border-style: solid;
 }
 
-/* line 3660, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3661, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover .arrow {
   border-width: 11px;
 }
 
-/* line 3664, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3665, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover .arrow:after {
   border-width: 10px;
   content: "";
 }
 
-/* line 3669, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3670, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.top .arrow {
   bottom: -11px;
   left: 50%;
@@ -4427,7 +4428,7 @@ button.close {
   border-bottom-width: 0;
 }
 
-/* line 3678, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3679, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.top .arrow:after {
   bottom: 1px;
   margin-left: -10px;
@@ -4436,7 +4437,7 @@ button.close {
   content: " ";
 }
 
-/* line 3686, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3687, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.right .arrow {
   top: 50%;
   left: -11px;
@@ -4446,7 +4447,7 @@ button.close {
   border-left-width: 0;
 }
 
-/* line 3695, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3696, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.right .arrow:after {
   bottom: -10px;
   left: 1px;
@@ -4455,7 +4456,7 @@ button.close {
   content: " ";
 }
 
-/* line 3703, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3704, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.bottom .arrow {
   top: -11px;
   left: 50%;
@@ -4465,7 +4466,7 @@ button.close {
   border-top-width: 0;
 }
 
-/* line 3712, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3713, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.bottom .arrow:after {
   top: 1px;
   margin-left: -10px;
@@ -4474,7 +4475,7 @@ button.close {
   content: " ";
 }
 
-/* line 3720, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3721, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.left .arrow {
   top: 50%;
   right: -11px;
@@ -4484,7 +4485,7 @@ button.close {
   border-right-width: 0;
 }
 
-/* line 3729, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3730, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .popover.left .arrow:after {
   right: 1px;
   bottom: -10px;
@@ -4493,7 +4494,7 @@ button.close {
   content: " ";
 }
 
-/* line 3737, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3738, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert {
   padding: 10px 35px 10px 15px;
   margin-bottom: 20px;
@@ -4503,24 +4504,24 @@ button.close {
   border-radius: 4px;
 }
 
-/* line 3746, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3747, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert h4 {
   margin-top: 0;
   color: inherit;
 }
 
-/* line 3751, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3752, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert hr {
   border-top-color: #f8e5be;
 }
 
-/* line 3755, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3756, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert .alert-link {
   font-weight: 500;
   color: #a47e3c;
 }
 
-/* line 3760, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3761, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert .close {
   position: relative;
   top: -2px;
@@ -4528,75 +4529,75 @@ button.close {
   color: inherit;
 }
 
-/* line 3767, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3768, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-success {
   color: #468847;
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
 
-/* line 3773, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3774, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-success hr {
   border-top-color: #c9e2b3;
 }
 
-/* line 3777, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3778, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-success .alert-link {
   color: #356635;
 }
 
-/* line 3781, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3782, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-danger {
   color: #b94a48;
   background-color: #f2dede;
   border-color: #eed3d7;
 }
 
-/* line 3787, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3788, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-danger hr {
   border-top-color: #e6c1c7;
 }
 
-/* line 3791, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3792, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-danger .alert-link {
   color: #953b39;
 }
 
-/* line 3795, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3796, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-info {
   color: #3a87ad;
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
 
-/* line 3801, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3802, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-info hr {
   border-top-color: #a6e1ec;
 }
 
-/* line 3805, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3806, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-info .alert-link {
   color: #2d6987;
 }
 
-/* line 3809, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3810, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-block {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* line 3815, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3816, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-block > p,
 .alert-block > ul {
   margin-bottom: 0;
 }
 
-/* line 3819, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3820, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .alert-block p + p {
   margin-top: 5px;
 }
 
-/* line 3824, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3825, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .thumbnail,
 .img-thumbnail {
   padding: 4px;
@@ -4608,12 +4609,12 @@ button.close {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 3834, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3835, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .thumbnail {
   display: block;
 }
 
-/* line 3839, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3840, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .thumbnail > img,
 .img-thumbnail {
   display: inline-block;
@@ -4621,69 +4622,69 @@ button.close {
   max-width: 100%;
 }
 
-/* line 3846, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3847, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 a.thumbnail:hover,
 a.thumbnail:focus {
   border-color: #428bca;
 }
 
-/* line 3850, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3851, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .thumbnail > img {
   margin-right: auto;
   margin-left: auto;
 }
 
-/* line 3855, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3856, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .thumbnail .caption {
   padding: 9px;
   color: #333333;
 }
 
-/* line 3861, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3862, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .media,
 .media-body {
   overflow: hidden;
   zoom: 1;
 }
 
-/* line 3867, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3868, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .media,
 .media .media {
   margin-top: 15px;
 }
 
-/* line 3871, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3872, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .media:first-child {
   margin-top: 0;
 }
 
-/* line 3875, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3876, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .media-object {
   display: block;
 }
 
-/* line 3879, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3880, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .media-heading {
   margin: 0 0 5px;
 }
 
-/* line 3883, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3884, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .media > .pull-left {
   margin-right: 10px;
 }
 
-/* line 3887, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3888, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .media > .pull-right {
   margin-left: 10px;
 }
 
-/* line 3891, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3892, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .media-list {
   padding-left: 0;
   list-style: none;
 }
 
-/* line 3896, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3897, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label {
   display: inline;
   padding: .25em .6em;
@@ -4698,7 +4699,7 @@ a.thumbnail:focus {
   border-radius: .25em;
 }
 
-/* line 3911, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3912, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label[href]:hover,
 .label[href]:focus {
   color: #ffffff;
@@ -4707,51 +4708,51 @@ a.thumbnail:focus {
   background-color: #808080;
 }
 
-/* line 3918, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3919, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label-danger {
   background-color: #d9534f;
 }
 
-/* line 3923, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3924, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label-danger[href]:hover,
 .label-danger[href]:focus {
   background-color: #c9302c;
 }
 
-/* line 3927, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3928, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label-success {
   background-color: #5cb85c;
 }
 
-/* line 3932, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3933, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label-success[href]:hover,
 .label-success[href]:focus {
   background-color: #449d44;
 }
 
-/* line 3936, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3937, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label-warning {
   background-color: #f0ad4e;
 }
 
-/* line 3941, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3942, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label-warning[href]:hover,
 .label-warning[href]:focus {
   background-color: #ec971f;
 }
 
-/* line 3945, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3946, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label-info {
   background-color: #5bc0de;
 }
 
-/* line 3950, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3951, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .label-info[href]:hover,
 .label-info[href]:focus {
   background-color: #31b0d5;
 }
 
-/* line 3954, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3955, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .badge {
   display: inline-block;
   min-width: 10px;
@@ -4767,12 +4768,12 @@ a.thumbnail:focus {
   border-radius: 10px;
 }
 
-/* line 3969, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3970, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .badge:empty {
   display: none;
 }
 
-/* line 3974, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3975, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 a.badge:hover,
 a.badge:focus {
   color: #ffffff;
@@ -4780,85 +4781,85 @@ a.badge:focus {
   cursor: pointer;
 }
 
-/* line 3980, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3981, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .btn .badge {
   position: relative;
   top: -1px;
 }
 
-/* line 3986, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3987, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #428bca;
   background-color: #ffffff;
 }
 
-/* line 3991, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 3992, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
 
 @-webkit-keyframes progress-bar-stripes {
-  /* line 3996, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 3997, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   from {
     background-position: 40px 0;
   }
 
-  /* line 3999, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4000, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-moz-keyframes progress-bar-stripes {
-  /* line 4005, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4006, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   from {
     background-position: 40px 0;
   }
 
-  /* line 4008, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4009, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-ms-keyframes progress-bar-stripes {
-  /* line 4014, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4015, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   from {
     background-position: 40px 0;
   }
 
-  /* line 4017, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4018, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-o-keyframes progress-bar-stripes {
-  /* line 4023, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4024, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   from {
     background-position: 0 0;
   }
 
-  /* line 4026, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4027, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   to {
     background-position: 40px 0;
   }
 }
 
 @keyframes progress-bar-stripes {
-  /* line 4032, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4033, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   from {
     background-position: 40px 0;
   }
 
-  /* line 4035, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4036, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   to {
     background-position: 0 0;
   }
 }
 
-/* line 4040, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4041, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress {
   height: 20px;
   margin-bottom: 20px;
@@ -4869,7 +4870,7 @@ a.list-group-item.active > .badge,
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* line 4050, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4051, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-bar {
   float: left;
   width: 0;
@@ -4884,7 +4885,7 @@ a.list-group-item.active > .badge,
   transition: width 0.6s ease;
 }
 
-/* line 4064, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4065, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-striped .progress-bar {
   background-color: #428bca;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4894,7 +4895,7 @@ a.list-group-item.active > .badge,
   background-size: 40px 40px;
 }
 
-/* line 4073, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4074, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress.active .progress-bar {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
   -moz-animation: progress-bar-stripes 2s linear infinite;
@@ -4903,12 +4904,12 @@ a.list-group-item.active > .badge,
   animation: progress-bar-stripes 2s linear infinite;
 }
 
-/* line 4081, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4082, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-bar-danger {
   background-color: #d9534f;
 }
 
-/* line 4085, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4086, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-striped .progress-bar-danger {
   background-color: #d9534f;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4917,12 +4918,12 @@ a.list-group-item.active > .badge,
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* line 4093, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4094, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-bar-success {
   background-color: #5cb85c;
 }
 
-/* line 4097, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4098, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-striped .progress-bar-success {
   background-color: #5cb85c;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4931,12 +4932,12 @@ a.list-group-item.active > .badge,
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* line 4105, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4106, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-bar-warning {
   background-color: #f0ad4e;
 }
 
-/* line 4109, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4110, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-striped .progress-bar-warning {
   background-color: #f0ad4e;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4945,12 +4946,12 @@ a.list-group-item.active > .badge,
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* line 4117, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4118, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-bar-info {
   background-color: #5bc0de;
 }
 
-/* line 4121, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4122, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .progress-striped .progress-bar-info {
   background-color: #5bc0de;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4959,49 +4960,49 @@ a.list-group-item.active > .badge,
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* line 4129, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4130, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .accordion {
   margin-bottom: 20px;
 }
 
-/* line 4133, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4134, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .accordion-group {
   margin-bottom: 2px;
   border: 1px solid #e5e5e5;
   border-radius: 4px;
 }
 
-/* line 4139, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4140, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .accordion-heading {
   border-bottom: 0;
 }
 
-/* line 4143, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4144, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .accordion-heading .accordion-toggle {
   display: block;
   padding: 8px 15px;
   cursor: pointer;
 }
 
-/* line 4149, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4150, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .accordion-inner {
   padding: 9px 15px;
   border-top: 1px solid #e5e5e5;
 }
 
-/* line 4154, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4155, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel {
   position: relative;
 }
 
-/* line 4158, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4159, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-/* line 4164, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4165, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .item {
   position: relative;
   display: none;
@@ -5009,7 +5010,7 @@ a.list-group-item.active > .badge,
   transition: 0.6s ease-in-out left;
 }
 
-/* line 4172, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4173, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: inline-block;
@@ -5018,19 +5019,19 @@ a.list-group-item.active > .badge,
   line-height: 1;
 }
 
-/* line 4181, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4182, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block;
 }
 
-/* line 4185, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4186, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .active {
   left: 0;
 }
 
-/* line 4190, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4191, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .next,
 .carousel-inner > .prev {
   position: absolute;
@@ -5038,33 +5039,33 @@ a.list-group-item.active > .badge,
   width: 100%;
 }
 
-/* line 4196, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4197, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .next {
   left: 100%;
 }
 
-/* line 4200, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4201, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .prev {
   left: -100%;
 }
 
-/* line 4205, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4206, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
   left: 0;
 }
 
-/* line 4209, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4210, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .active.left {
   left: -100%;
 }
 
-/* line 4213, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4214, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-inner > .active.right {
   left: 100%;
 }
 
-/* line 4217, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4218, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-control {
   position: absolute;
   top: 0;
@@ -5079,7 +5080,7 @@ a.list-group-item.active > .badge,
   filter: alpha(opacity=50);
 }
 
-/* line 4231, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4232, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-control.left {
   background-color: rgba(0, 0, 0, 0.0001);
   background-color: transparent;
@@ -5091,7 +5092,7 @@ a.list-group-item.active > .badge,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
 
-/* line 4242, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4243, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-control.right {
   right: 0;
   left: auto;
@@ -5105,7 +5106,7 @@ a.list-group-item.active > .badge,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
 
-/* line 4256, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4257, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-control:hover,
 .carousel-control:focus {
   color: #ffffff;
@@ -5114,7 +5115,7 @@ a.list-group-item.active > .badge,
   filter: alpha(opacity=90);
 }
 
-/* line 4265, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4266, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-control .glyphicon,
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -5130,17 +5131,17 @@ a.list-group-item.active > .badge,
   font-family: serif;
 }
 
-/* line 4278, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4279, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-control .icon-prev:before {
   content: '\2039';
 }
 
-/* line 4282, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4283, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-control .icon-next:before {
   content: '\203a';
 }
 
-/* line 4286, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4287, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
@@ -5153,7 +5154,7 @@ a.list-group-item.active > .badge,
   list-style: none;
 }
 
-/* line 4298, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4299, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -5165,7 +5166,7 @@ a.list-group-item.active > .badge,
   border-radius: 10px;
 }
 
-/* line 4309, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4310, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
@@ -5173,7 +5174,7 @@ a.list-group-item.active > .badge,
   background-color: #ffffff;
 }
 
-/* line 4316, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4317, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-caption {
   position: absolute;
   right: 15%;
@@ -5187,13 +5188,13 @@ a.list-group-item.active > .badge,
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-/* line 4329, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4330, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .carousel-caption .btn {
   text-shadow: none;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 4336, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4337, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .carousel-control .glyphicon,
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
@@ -5204,19 +5205,19 @@ a.list-group-item.active > .badge,
     font-size: 30px;
   }
 
-  /* line 4343, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4344, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .carousel-caption {
     right: 20%;
     left: 20%;
     padding-bottom: 30px;
   }
 
-  /* line 4348, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4349, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .carousel-indicators {
     bottom: 20px;
   }
 }
-/* line 4353, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4354, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
@@ -5227,67 +5228,67 @@ a.list-group-item.active > .badge,
   background-color: #eeeeee;
 }
 
-/* line 4363, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4364, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .jumbotron h1 {
   line-height: 1;
   color: inherit;
 }
 
-/* line 4368, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4369, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .jumbotron p {
   line-height: 1.4;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 4373, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4374, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .jumbotron {
     padding: 50px 60px;
     border-radius: 6px;
   }
 
-  /* line 4377, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4378, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .jumbotron h1 {
     font-size: 63px;
   }
 }
-/* line 4383, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4384, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .clearfix:before,
 .clearfix:after {
   display: table;
   content: " ";
 }
 
-/* line 4388, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4389, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 4392, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4393, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .pull-right {
   float: right;
 }
 
-/* line 4396, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4397, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .pull-left {
   float: left;
 }
 
-/* line 4400, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4401, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .hide {
   display: none !important;
 }
 
-/* line 4404, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4405, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .show {
   display: block !important;
 }
 
-/* line 4408, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4409, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 4412, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4413, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -5296,7 +5297,7 @@ a.list-group-item.active > .badge,
   border: 0;
 }
 
-/* line 4420, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4421, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .affix {
   position: fixed;
 }
@@ -5310,374 +5311,439 @@ a.list-group-item.active > .badge,
     width: 320px;
 }
 }
-/* line 4434, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4435, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .hidden {
   display: none !important;
   visibility: hidden !important;
 }
 
-/* line 4439, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4440, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .visible-sm {
   display: block !important;
 }
 
-/* line 4443, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4444, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 tr.visible-sm {
   display: table-row !important;
 }
 
-/* line 4448, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4449, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 th.visible-sm,
 td.visible-sm {
   display: table-cell !important;
 }
 
-/* line 4452, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4453, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .visible-md {
   display: none !important;
 }
 
-/* line 4456, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4457, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 tr.visible-md {
   display: none !important;
 }
 
-/* line 4461, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4462, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 th.visible-md,
 td.visible-md {
   display: none !important;
 }
 
-/* line 4465, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4466, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .visible-lg {
   display: none !important;
 }
 
-/* line 4469, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4470, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 tr.visible-lg {
   display: none !important;
 }
 
-/* line 4474, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4475, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 th.visible-lg,
 td.visible-lg {
   display: none !important;
 }
 
-/* line 4478, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4479, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .hidden-sm {
   display: none !important;
 }
 
-/* line 4482, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4483, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 tr.hidden-sm {
   display: none !important;
 }
 
-/* line 4487, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4488, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 th.hidden-sm,
 td.hidden-sm {
   display: none !important;
 }
 
-/* line 4491, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4492, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .hidden-md {
   display: block !important;
 }
 
-/* line 4495, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4496, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 tr.hidden-md {
   display: table-row !important;
 }
 
-/* line 4500, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4501, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 th.hidden-md,
 td.hidden-md {
   display: table-cell !important;
 }
 
-/* line 4504, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4505, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .hidden-lg {
   display: block !important;
 }
 
-/* line 4508, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4509, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 tr.hidden-lg {
   display: table-row !important;
 }
 
-/* line 4513, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4514, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 th.hidden-lg,
 td.hidden-lg {
   display: table-cell !important;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 4518, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4519, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .visible-sm {
     display: none !important;
   }
 
-  /* line 4521, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4522, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.visible-sm {
     display: none !important;
   }
 
-  /* line 4525, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4526, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.visible-sm,
   td.visible-sm {
     display: none !important;
   }
 
-  /* line 4528, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4529, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .visible-md {
     display: block !important;
   }
 
-  /* line 4531, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4532, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.visible-md {
     display: table-row !important;
   }
 
-  /* line 4535, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4536, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
   }
 
-  /* line 4538, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4539, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .visible-lg {
     display: none !important;
   }
 
-  /* line 4541, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4542, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.visible-lg {
     display: none !important;
   }
 
-  /* line 4545, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4546, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.visible-lg,
   td.visible-lg {
     display: none !important;
   }
 
-  /* line 4548, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4549, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .hidden-sm {
     display: block !important;
   }
 
-  /* line 4551, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4552, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.hidden-sm {
     display: table-row !important;
   }
 
-  /* line 4555, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4556, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.hidden-sm,
   td.hidden-sm {
     display: table-cell !important;
   }
 
-  /* line 4558, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4559, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .hidden-md {
     display: none !important;
   }
 
-  /* line 4561, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4562, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.hidden-md {
     display: none !important;
   }
 
-  /* line 4565, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4566, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.hidden-md,
   td.hidden-md {
     display: none !important;
   }
 
-  /* line 4568, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4569, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .hidden-lg {
     display: block !important;
   }
 
-  /* line 4571, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4572, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.hidden-lg {
     display: table-row !important;
   }
 
-  /* line 4575, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4576, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.hidden-lg,
   td.hidden-lg {
     display: table-cell !important;
   }
 }
 @media (min-width: 992px) {
-  /* line 4581, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4582, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .visible-sm {
     display: none !important;
   }
 
-  /* line 4584, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4585, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.visible-sm {
     display: none !important;
   }
 
-  /* line 4588, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4589, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.visible-sm,
   td.visible-sm {
     display: none !important;
   }
 
-  /* line 4591, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4592, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .visible-md {
     display: none !important;
   }
 
-  /* line 4594, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4595, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.visible-md {
     display: none !important;
   }
 
-  /* line 4598, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4599, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.visible-md,
   td.visible-md {
     display: none !important;
   }
 
-  /* line 4601, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4602, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .visible-lg {
     display: block !important;
   }
 
-  /* line 4604, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4605, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.visible-lg {
     display: table-row !important;
   }
 
-  /* line 4608, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4609, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
   }
 
-  /* line 4611, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4612, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .hidden-sm {
     display: block !important;
   }
 
-  /* line 4614, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4615, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.hidden-sm {
     display: table-row !important;
   }
 
-  /* line 4618, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4619, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.hidden-sm,
   td.hidden-sm {
     display: table-cell !important;
   }
 
-  /* line 4621, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4622, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .hidden-md {
     display: block !important;
   }
 
-  /* line 4624, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4625, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.hidden-md {
     display: table-row !important;
   }
 
-  /* line 4628, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4629, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.hidden-md,
   td.hidden-md {
     display: table-cell !important;
   }
 
-  /* line 4631, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4632, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .hidden-lg {
     display: none !important;
   }
 
-  /* line 4634, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4635, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.hidden-lg {
     display: none !important;
   }
 
-  /* line 4638, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4639, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.hidden-lg,
   td.hidden-lg {
     display: none !important;
   }
 }
-/* line 4643, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4644, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 .visible-print {
   display: none !important;
 }
 
-/* line 4647, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4648, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 tr.visible-print {
   display: none !important;
 }
 
-/* line 4652, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+/* line 4653, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
 th.visible-print,
 td.visible-print {
   display: none !important;
 }
 
 @media print {
-  /* line 4657, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4658, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .visible-print {
     display: block !important;
   }
 
-  /* line 4660, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4661, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.visible-print {
     display: table-row !important;
   }
 
-  /* line 4664, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4665, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
   }
 
-  /* line 4667, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4668, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   .hidden-print {
     display: none !important;
   }
 
-  /* line 4670, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4671, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   tr.hidden-print {
     display: none !important;
   }
 
-  /* line 4674, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
+  /* line 4675, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_bootstrap.scss */
   th.hidden-print,
   td.hidden-print {
     display: none !important;
   }
 }
-/* line 1, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 2, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_forms.scss */
+form > p {
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+/* line 7, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_forms.scss */
+form .submit,
+form input[type="submit"] {
+  display: block;
+  margin-top: 10px;
+}
+
+/* line 3, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 h1, h2, h3, h4, h5, h6, p, span, label, a {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
-/* line 5, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
-door-frame {
+/* line 7, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+h1 {
+  font-size: 24px;
+}
+
+/* line 10, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+h2, h3, h4 {
+  font-size: 20px;
+}
+
+/* line 16, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+door-frame,
+ng-view,
+scrollable,
+jwplayer {
   display: block;
 }
 
-/* line 8, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
-scrollable {
+/* line 20, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+ng-view .page-transition-enter {
+  margin-left: 0;
+}
+/* line 23, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+ng-view .page-transition-enter-active {
+  margin-left: 0%;
+}
+/* line 26, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+ng-view .page-transition-leave {
+  margin-left: 0%;
+}
+/* line 29, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+ng-view .page-transition-leave-active {
+  margin-left: -100%;
+}
+
+/* line 35, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+ng-view,
+[ng-view],
+[data-ng-view] {
   position: relative;
   display: block;
+  white-space: nowrap;
+  transition: 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) height;
 }
 
-/* line 12, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 43, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+ng-view > *,
+[ng-view] > *,
+[data-ng-view] > * {
+  -webkit-transition: 750ms cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  -moz-transition: 750ms cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  -ms-transition: 750ms cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  -o-transition: 750ms cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  transition: 750ms cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  vertical-align: top;
+  display: inline-block;
+  white-space: normal;
+}
+
+/* line 53, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+scrollable {
+  position: relative;
+}
+
+/* line 56, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_window {
   overflow: hidden;
 }
 
-/* line 15, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 59, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_content {
   -webkit-transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);
   -moz-transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);
@@ -5688,47 +5754,52 @@ scrollable {
   /*Swing cubic-bezier(.02, .01, .47, 1)*/
 }
 
-/* line 24, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 68, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_btns {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-/* line 30, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 74, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_up_btn:hover,
 .scrollable_down_btn:hover {
   cursor: pointer;
 }
 
-/* line 34, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 78, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_up_btn,
 .scrollable_down_btn {
   width: 24px;
   height: 11px;
 }
 
-/* line 38, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 82, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_up_btn {
   background: url("/images/up.png");
   margin-bottom: 4px;
 }
 
-/* line 43, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 87, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_up_btn:hover,
 .scrollable_up_btn:active {
   background: url("/images/up_active.png");
 }
 
-/* line 46, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 90, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_down_btn {
   background: url("/images/down.png");
 }
 
-/* line 50, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+/* line 94, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
 .scrollable_down_btn:hover,
 .scrollable_down_btn:active {
   background: url("/images/down_active.png");
+}
+
+/* line 98, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_base.scss */
+jwplayer .jwlogo {
+  display: none;
 }
 
 /* line 1, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_layout.scss */
@@ -5809,7 +5880,7 @@ scrollable {
 
 /* line 1, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html {
-  background-color: #000;
+  background-color: #FFF;
 }
 /* line 3, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html body {
@@ -5861,7 +5932,7 @@ html body #page > #page_main_content {
 html body #page > #page_main_content .door_frame {
   background-color: #000;
   position: relative;
-  padding: 50px 20px;
+  padding: 48px 0;
   height: 710px;
 }
 /* line 44, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
@@ -5872,7 +5943,7 @@ html body #page > #page_main_content .door_frame .door_frame_top {
 }
 /* line 49, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html body #page > #page_main_content .door_frame .door_frame_content {
-  padding: 10px;
+  padding: 20px;
 }
 /* line 52, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html body #page > #page_main_content .door_frame .door_frame_bottom {
@@ -5880,24 +5951,93 @@ html body #page > #page_main_content .door_frame .door_frame_bottom {
   bottom: 0;
   left: 0;
 }
+/* line 1, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_subMenu.scss */
+html body #page > #page_main_content .sub_menu_selector {
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  top: 60px;
+}
+/* line 6, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_subMenu.scss */
+html body #page > #page_main_content .sub_menu_selector h1 {
+  color: #82b267;
+}
+/* line 9, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_subMenu.scss */
+html body #page > #page_main_content .sub_menu_selector .sub_menu {
+  position: relative;
+  display: inline-block;
+  width: 193px;
+  height: 270px;
+  background: url("/images/episode_guide/season_menu.png");
+  padding-top: 10px;
+  padding-left: 12px;
+}
+/* line 18, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_subMenu.scss */
+html body #page > #page_main_content .sub_menu_selector .sub_menu .sub_menu_item {
+  position: relative;
+  /*text-align: right;*/
+  width: 165px;
+  height: 35px;
+  background: center bottom no-repeat url("/images/episode_guide/seperator.png");
+}
+/* line 25, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_subMenu.scss */
+html body #page > #page_main_content .sub_menu_selector .sub_menu .sub_menu_item:last-child {
+  background: none;
+}
+/* line 28, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_subMenu.scss */
+html body #page > #page_main_content .sub_menu_selector .sub_menu .sub_menu_item:hover {
+  cursor: pointer;
+}
+/* line 31, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_subMenu.scss */
+html body #page > #page_main_content .sub_menu_selector .sub_menu .sub_menu_item h2 {
+  /*margin-right: 15px;*/
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 20px;
+  color: #282b14;
+}
+/* line 39, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_subMenu.scss */
+html body #page > #page_main_content .sub_menu_selector .sub_menu .sub_menu_item .selection_indicator {
+  position: relative;
+  left: 5px;
+  top: -2px;
+}
 /* line 2, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page door-frame {
   height: 620px;
 }
-/* line 5, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 4, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+html body #page > #page_main_content #home_page door-frame .door_frame_content {
+  position: relative;
+}
+/* line 6, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+html body #page > #page_main_content #home_page door-frame .door_frame_content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1007px;
+  height: 528px;
+}
+/* line 15, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page #links {
   padding-top: 15px;
   text-align: center;
 }
-/* line 8, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 19, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+html body #page > #page_main_content #home_page #links .left_link_img,
+html body #page > #page_main_content #home_page #links .right_link_img {
+  margin-top: 15px;
+}
+/* line 22, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page #links .left_link_img {
   position: relative;
-  left: -9px;
+  left: -17px;
 }
-/* line 12, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
+/* line 26, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_homePage.scss */
 html body #page > #page_main_content #home_page #links .right_link_img {
   position: relative;
-  right: -7px;
+  right: -9px;
 }
 /* line 3, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page h1, html body #page > #page_main_content #videos_page h2 {
@@ -5956,9 +6096,13 @@ html body #page > #page_main_content #videos_page #video_selector scrollable li 
 /* line 47, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector scrollable li img {
   max-width: 130px;
-  max-height: 75px;
+  height: 75px;
 }
-/* line 52, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+/* line 51, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
+html body #page > #page_main_content #videos_page #video_selector scrollable li img:hover {
+  cursor: pointer;
+}
+/* line 55, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_videosPage.scss */
 html body #page > #page_main_content #videos_page #video_selector scrollable .scrollable_btns {
   position: absolute;
   bottom: 10px;
@@ -5969,68 +6113,80 @@ html body #page > #page_main_content #characters_page door-frame {
   position: relative;
 }
 /* line 4, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
-html body #page > #page_main_content #characters_page door-frame h1 {
+html body #page > #page_main_content #characters_page door-frame h1, html body #page > #page_main_content #characters_page door-frame h4 {
   text-transform: uppercase;
   font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-size: 24px;
 }
-/* line 9, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 8, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame img.full_length {
   position: absolute;
   right: 0;
   bottom: 45px;
 }
-/* line 14, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 13, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_selector {
   position: relative;
   width: 551px;
   height: 140px;
   background: url("/images/characters/head_shots_box.png");
-  padding-left: 15px;
+  padding-left: 17px;
 }
-/* line 20, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 19, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+html body #page > #page_main_content #characters_page door-frame #characters_selector > div {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+/* line 23, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+html body #page > #page_main_content #characters_page door-frame #characters_selector > div > h4 {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+/* line 30, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator {
   position: absolute;
   bottom: 18px;
 }
-/* line 24, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 34, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator.frankie {
   left: 12px;
 }
-/* line 27, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 37, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator.mike {
   left: 128px;
 }
-/* line 30, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
-html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator.axl {
-  left: 230px;
-}
-/* line 33, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
-html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator.sue {
-  left: 332px;
-}
-/* line 36, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
-html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator.brick {
-  left: 434px;
-}
 /* line 40, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator.axl {
+  left: 237px;
+}
+/* line 43, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator.brick {
+  left: 330px;
+}
+/* line 46, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+html body #page > #page_main_content #characters_page door-frame #characters_selector .selection_indicator.sue {
+  left: 445px;
+}
+/* line 50, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_description {
   float: left;
 }
-/* line 42, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 52, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_description h1 {
   font-weight: bold;
 }
-/* line 45, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 55, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_description scrollable {
   width: 40%;
 }
-/* line 47, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 57, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_description scrollable .scrollable_window {
   height: 390px;
   overflow: hidden;
 }
-/* line 52, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
+/* line 62, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_charactersPage.scss */
 html body #page > #page_main_content #characters_page door-frame #characters_description .scrollable_btns {
   right: -35px;
 }
@@ -6038,82 +6194,41 @@ html body #page > #page_main_content #characters_page door-frame #characters_des
 html body #page > #page_main_content #episode_guide_page door-frame {
   position: relative;
 }
-/* line 5, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector {
-  text-align: center;
-  position: absolute;
-  right: 30px;
-  top: 40px;
-}
-/* line 10, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector h1 {
-  color: #82b267;
-}
-/* line 13, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector #season_menu {
-  position: relative;
-  display: inline-block;
-  width: 193px;
-  height: 274px;
-  background: url("/images/episode_guide/season_menu.png");
-  padding-top: 10px;
-  padding-left: 12px;
-}
-/* line 21, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector #season_menu .selection_indicator {
-  position: absolute;
-  left: 35px;
-}
-/* line 25, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector #season_menu .selection_indicator.one {
-  top: 35px;
-}
-/* line 28, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector #season_menu .selection_indicator.two {
-  top: 75px;
-}
-/* line 31, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector #season_menu .selection_indicator.three {
-  top: 115px;
-}
-/* line 34, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector #season_menu .selection_indicator.four {
-  top: 155px;
-}
-/* line 37, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_selector #season_menu > div {
-  width: 169px;
-  height: 50px;
-}
-/* line 43, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
+/* line 4, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
 html body #page > #page_main_content #episode_guide_page door-frame h1, html body #page > #page_main_content #episode_guide_page door-frame h2 {
   text-transform: uppercase;
   font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-size: 20px;
 }
-/* line 49, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_description {
+/* line 10, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
+html body #page > #page_main_content #episode_guide_page door-frame .season_description {
   float: left;
 }
-/* line 51, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_description h2 {
+/* line 13, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
+html body #page > #page_main_content #episode_guide_page door-frame .season_description h2 {
   color: #FFF;
   font-weight: bold;
 }
-/* line 55, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_description scrollable {
+/* line 16, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
+html body #page > #page_main_content #episode_guide_page door-frame .season_description h2 .episode_name {
+  color: #a8a8a8;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+/* line 22, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
+html body #page > #page_main_content #episode_guide_page door-frame .season_description scrollable {
   width: 40%;
 }
-/* line 57, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_description scrollable .scrollable_window {
+/* line 24, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
+html body #page > #page_main_content #episode_guide_page door-frame .season_description scrollable .scrollable_window {
   height: 510px;
   overflow: hidden;
 }
-/* line 62, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
-html body #page > #page_main_content #episode_guide_page door-frame #season_description .scrollable_btns {
+/* line 29, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
+html body #page > #page_main_content #episode_guide_page door-frame .season_description .scrollable_btns {
   right: -35px;
 }
-/* line 66, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
+/* line 33, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_episodeGuidePage.scss */
 html body #page > #page_main_content #episode_guide_page door-frame #family_photo {
   position: absolute;
   right: 50px;
@@ -6130,51 +6245,140 @@ html body #page > #page_main_content #downloadsPage door-frame h1 {
   font-size: 20px;
 }
 /* line 9, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
-html body #page > #page_main_content #downloadsPage door-frame #downloads_selector {
-  text-align: center;
-  position: absolute;
-  right: 30px;
-  top: 40px;
+html body #page > #page_main_content #downloadsPage door-frame ng-view {
+  width: 100%;
+  overflow-x: hidden;
 }
-/* line 14, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
-html body #page > #page_main_content #downloadsPage door-frame #downloads_selector h1 {
-  color: #82b267;
+/* line 12, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view > div {
+  width: 100%;
+  padding-right: 28%;
 }
-/* line 17, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
-html body #page > #page_main_content #downloadsPage door-frame #downloads_selector #downloads_menu {
-  position: relative;
-  width: 193px;
-  height: 274px;
-  background: url("/images/downloads/downloads_menu.png");
-  text-align: center;
+/* line 16, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view a {
+  color: #FFF;
+  text-decoration: underline;
 }
-/* line 23, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
-html body #page > #page_main_content #downloadsPage door-frame #downloads_selector #downloads_menu .selection_indicator {
-  position: absolute;
-  left: 30px;
-  top: 39px;
+/* line 19, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view a:hover {
+  cursor: pointer;
 }
-/* line 30, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
-html body #page > #page_main_content #downloadsPage door-frame #photos {
-  width: 72%;
-}
-/* line 31, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
-html body #page > #page_main_content #downloadsPage door-frame #photos h1 {
+/* line 27, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #photos h1,
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars h1,
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers h1 {
   font-weight: bold;
 }
-/* line 35, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
-html body #page > #page_main_content #downloadsPage door-frame #photos .scrollable_window {
-  overflow: hidden;
-  height: 487px;
-}
-/* line 39, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
-html body #page > #page_main_content #downloadsPage door-frame #photos img {
+/* line 34, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #photos img,
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers img {
   border: #82b267 2px solid;
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 5px;
+  max-width: 210px;
+  height: 158px;
+}
+/* line 45, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #photos .scrollable_window {
+  overflow: hidden;
+  height: 487px;
+}
+/* line 49, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #photos a.photo {
+  text-decoration: none;
+}
+/* line 54, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars {
+  position: relative;
+  height: 600px;
+}
+/* line 57, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars img {
+  max-width: 48px;
+  height: 48px;
+}
+/* line 61, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars #download_instructions {
+  margin-top: 30px;
+}
+/* line 64, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars ul {
+  margin-top: 40px;
+}
+/* line 66, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars ul li {
+  margin-bottom: 10px;
+}
+/* line 68, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars ul li a.avatar_icon {
+  text-decoration: none;
+}
+/* line 70, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars ul li a.avatar_icon img {
+  border: 4px #c5c5c5 solid;
+}
+/* line 76, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars .avatar_download_details {
+  display: inline-block;
+  vertical-align: bottom;
+}
+/* line 79, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars .avatar_download_details .avatar_name {
+  text-transform: uppercase;
+  color: #fb5d1a;
+}
+/* line 84, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #avatars #family_photo {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  border: none;
+  width: 449px;
+  max-width: 449px;
+  height: 338px;
+  max-height: 338px;
+}
+/* line 97, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .scrollable_window {
+  height: 450px;
+}
+/* line 100, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .wallpaper_item {
+  width: 215px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+/* line 104, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .wallpaper_item img {
+  display: inline-block;
+  max-width: 215px;
+  height: 165px;
+}
+/* line 109, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .wallpaper_item select {
+  width: 100%;
+  margin-bottom: 5px;
+}
+/* line 115, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_downloadsPage.scss */
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .wallpaper_item,
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .wallpaper_item img,
+html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .wallpaper_item select {
+  display: inline-block;
 }
 /* line 65, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
+html body #page > footer {
+  color: #000;
+}
+/* line 67, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
+html body #page > footer li > a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 8px;
+  font-size: 12px;
+}
+/* line 73, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html body #page > footer li > a:hover {
   text-decoration: underline;
 }

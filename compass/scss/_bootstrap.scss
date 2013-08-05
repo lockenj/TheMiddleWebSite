@@ -3343,7 +3343,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  display: none;
+  display: block;
   overflow: auto;
   overflow-y: scroll;
 }
@@ -3393,7 +3393,8 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1030;
-  background-color: #000000;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
 }
 
 .modal-backdrop.fade {

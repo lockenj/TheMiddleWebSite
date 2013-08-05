@@ -1,0 +1,46 @@
+.sub_menu_selector{
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  top: 60px;
+  h1 {
+    color: #82b267;
+  }
+  .sub_menu{ 
+    position: relative;   
+    display: inline-block;
+    width: 193px;
+    height: 270px;
+    background: url('/images/episode_guide/season_menu.png');
+    padding-top: 10px;
+    padding-left: 12px;
+    
+    .sub_menu_item{
+      position: relative;
+      /*text-align: right;*/      
+      width: 165px;
+      height: 35px;
+      background: center bottom no-repeat url('/images/episode_guide/seperator.png');
+      
+      &:last-child{
+        background: none;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+      h2{
+        /*margin-right: 15px;*/
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+        font-size: 20px;
+        color: #282b14;
+      }
+      .selection_indicator{
+        position: relative;
+        left: 5px;
+        top: -2px;          
+      }          
+    }
+  }
+} 

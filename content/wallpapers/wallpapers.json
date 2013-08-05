@@ -1,0 +1,42 @@
+[
+	{
+		"name": "In the Car",
+		"thumbImageUrl": "/content/wallpapers/images/wallpaper1_thumb.jpg",
+		"sizes": [
+			{ "size": "1600x1200", "imageUrl": "/content/wallpapers/images/wallpaper1_1600x1200.jpg" },
+			{ "size": "1280x960", "imageUrl": "/content/wallpapers/images/wallpaper1_1280x960.jpg" },
+			{ "size": "1440x1080", "imageUrl": "/content/wallpapers/images/wallpaper1_1440x1080.jpg" },
+			{ "size": "1024x768", "imageUrl": "/content/wallpapers/images/wallpaper1_1024x768.jpg" }
+		]
+	},
+	{
+		"name": "Axl",
+		"thumbImageUrl": "/content/wallpapers/images/wallpaper2_thumb.jpg",
+		"sizes": [
+			{ "size": "1600x1200", "imageUrl": "/content/wallpapers/images/wallpaper2_1600x1200.jpg" },
+			{ "size": "1280x960", "imageUrl": "/content/wallpapers/images/wallpaper2_1280x960.jpg" },
+			{ "size": "1440x1080", "imageUrl": "/content/wallpapers/images/wallpaper2_1440x1080.jpg" },
+			{ "size": "1024x768", "imageUrl": "/content/wallpapers/images/wallpaper2_1024x768.jpg" }
+		]
+	},
+	{
+		"name": "Pool Time",
+		"thumbImageUrl": "/content/wallpapers/images/wallpaper3_thumb.jpg",
+		"sizes": [
+			{ "size": "1600x1200", "imageUrl": "/content/wallpapers/images/wallpaper3_1600x1200.jpg" },
+			{ "size": "1280x960", "imageUrl": "/content/wallpapers/images/wallpaper3_1280x960.jpg" },
+			{ "size": "1440x1080", "imageUrl": "/content/wallpapers/images/wallpaper3_1440x1080.jpg" },
+			{ "size": "1024x768", "imageUrl": "/content/wallpapers/images/wallpaper3_1024x768.jpg" }
+		]
+	},
+	{
+		"name": "Looking Down",
+		"thumbImageUrl": "/content/wallpapers/images/wallpaper4_thumb.jpg",
+		"sizes": [
+			{ "size": "1600x1200", "imageUrl": "/content/wallpapers/images/wallpaper4_1600x1200.jpg" },
+			{ "size": "1280x960", "imageUrl": "/content/wallpapers/images/wallpaper4_1280x960.jpg" },
+			{ "size": "1440x1080", "imageUrl": "/content/wallpapers/images/wallpaper4_1440x1080.jpg" },
+			{ "size": "1024x768", "imageUrl": "/content/wallpapers/images/wallpaper4_1024x768.jpg" }
+		]
+	}	
+]

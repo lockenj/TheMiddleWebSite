@@ -1,0 +1,11 @@
+form{
+  > p {
+    margin-bottom: 3px;
+    margin-top: 10px;
+  }
+  .submit,
+  input[type="submit"]{
+    display: block;
+    margin-top: 10px;
+  }
+}

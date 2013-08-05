@@ -1,0 +1,13 @@
+<div id="wallpapers">
+  <h1>Wallpapers</h1>  
+  <p>Personalize your computer desktop with one of the wallpapers. Select the wallpaper of your choice and then follow the simple download instructions.</p>
+  <p>Download Instructions - <a data-ng-click="openInstructionsDialog('windows')">Windows</a> - <a data-ng-click="openInstructionsDialog('mac')">Mac OSX</a></p>  
+  <scrollable>    
+    <div class="wallpaper_item" data-ng-repeat="wallpaper in wallpapersFctry.getWallpapers()">
+      <img class="thumb" ng-src="{{wallpaper.thumbImageUrl}}"/>
+      <select ng-change="wallPaperSelected(wallpaper, selectedWallpaperSize)" ng-model="selectedWallpaperSize" ng-options="wpsi as wpsi.size for wpsi in wallpaper.sizes">
+        <option value="">--choose size --</option>      
+      </select>  
+    </div>
+  </scrollable>
+</div>

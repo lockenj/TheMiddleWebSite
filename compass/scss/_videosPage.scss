@@ -46,7 +46,10 @@
                 
         img{
           max-width: 130px;
-          max-height: 75px;
+          height: 75px;
+        }
+        img:hover{
+          cursor: pointer;
         }
       } 
       .scrollable_btns {

@@ -1,0 +1,19 @@
+<div id="avatars">
+  <h1>Avatars</h1>
+  <p>
+    Instructions: If you have an instant messenger that can process AIM commands then just click on an icon below to set it as your buddy icon. If you click on an icon and nothing happens then you need to click on its download link and save the BMP image to your computer. You then need to set it up by going to the preferences section of your instant messenger program.
+  </p>
+  <p id="download_instructions">
+    Download Instructions - <a data-ng-click="openInstructions('aim')">AIM</a> - <a data-ng-click="openInstructions('msn')">MSN</a> - <a data-ng-click="openInstructions('yahoo')">Yahoo!</a>
+  </p>  
+  <ul>
+    <li data-ng-repeat="avatar in avatarsFctry.getAvatars()">
+      <a class="avatar_icon" href="{{avatar.iconUrl}}" target="_blank"> <img class="thumb" ng-src="{{avatar.iconUrl}}"/> </a>
+      <div class="avatar_download_details">
+        <p class="avatar_name">{{avatar.name}}</p>
+        <a href="aim:BuddyIcon?Src={{avatar.iconUrl}}">Download for AIM</a> | <a href="{{avatar.iconUrl}}" target="_blank">Download Icon</a>
+      </div>
+    </li>
+  </ul>
+  <img id="family_photo" src="/images/episode_guide/family.png"/>
+</div>

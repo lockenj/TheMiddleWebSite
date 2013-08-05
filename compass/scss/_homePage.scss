@@ -1,17 +1,31 @@
 #home_page{  
   door-frame{
-    height: 620px;   
+    height: 620px;
+    .door_frame_content{
+      position: relative;
+      img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1007px;
+        height: 528px;
+      }
+    }   
   }  
   #links{
     padding-top: 15px;
     text-align: center;
+    .left_link_img,
+    .right_link_img{
+      margin-top: 15px;
+    }
     .left_link_img{
       position: relative;
-      left: -9px;
+      left: -17px;
     }
     .right_link_img{
       position: relative;
-      right: -7px;
+      right: -9px;
     }
   }        
 }

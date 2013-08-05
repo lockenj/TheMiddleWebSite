@@ -1,5 +1,5 @@
 <?php 
-  $photosLoc = '/images/photos/';
+  $photosLoc = '/content/photos/';
   $photos = array();
   if ($handle = opendir($_SERVER['DOCUMENT_ROOT'] . $photosLoc . 'large')) {
     while (false !== ($file = readdir($handle))) {

@@ -3,16 +3,16 @@
 <section id="videos_page" data-ng-controller="VideosCtrl">
   <door-frame>
     <div id="video_viewer">
-      <h1>Videos</h1>      
-      <jw-player id="video_player" video="vid" width="650px" height="375px"></jw-player>
-      <h2>{{videosFctry.getSelected().name}}</h2>
+      <h1>Videos</h1>  
+      <jwplayer video="selectedVideo" width="650px" height="375px"></jwplayer>
+      <h2>{{selectedVideo.name}}</h2>
     </div>
     <div id="video_selector">
       <h1>Videos</h1>
       <scrollable id="videos">    
         <ul>
-          <li data-ng-click="videoClicked(video)" data-ng-repeat="video in videosFctry.getVideos()">          
-            <img src="{{ video.image }}" alt="{{ video.name }} video."/>
+          <li data-ng-click="setSelectedVideo(video)" data-ng-repeat="video in videos">          
+            <img ng-src="{{ video.image }}" alt="{{ video.name }} video."/>
           </li>
         </ul>  
       </scrollable>

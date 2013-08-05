@@ -1,13 +1,57 @@
+@import "forms";
+
 h1,h2,h3,h4,h5,h6,p,span,label,a{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
 }
-door-frame{
+h1{
+  font-size: 24px;
+}
+h2,h3,h4{
+  font-size: 20px;
+}
+door-frame,
+ng-view,
+scrollable,
+jwplayer{
   display: block;
 }
-scrollable{
+ng-view{
+  .page-transition-enter{ 
+    margin-left: 0;
+  } 
+  .page-transition-enter-active{ 
+    margin-left: 0%;
+  }  
+  .page-transition-leave{ 
+    margin-left: 0%; 
+  } 
+  .page-transition-leave-active{ 
+    margin-left: -100%; 
+  }
+}
+ng-view,
+[ng-view],
+[data-ng-view]{  
   position: relative;
-  display: block;  
+  display: block;
+  white-space: nowrap;
+  transition: 5s cubic-bezier(0.680, -0.550, 0.265, 1.550) height;
+}
+ng-view > *,
+[ng-view] > *, 
+[data-ng-view] > *{
+  -webkit-transition: 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550) all;
+  -moz-transition: 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550) all;
+  -ms-transition: 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550) all;
+  -o-transition: 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550) all;
+  transition: 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550) all;
+  vertical-align: top;
+  display: inline-block;
+  white-space: normal;
+}
+scrollable{
+  position: relative;    
 }
 .scrollable_window{
   overflow: hidden;
@@ -49,4 +93,9 @@ scrollable{
 .scrollable_down_btn:hover,
 .scrollable_down_btn:active{
   background: url('/images/down_active.png');
+}
+jwplayer{
+  .jwlogo{
+    display: none;
+  }
 }

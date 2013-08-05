@@ -1,56 +1,23 @@
 #episode_guide_page{
   door-frame{
     position: relative;
-    
-    #season_selector{
-      text-align: center;
-      position: absolute;
-      right: 30px;
-      top: 40px;
-      h1 {
-        color: #82b267;
-      }
-      #season_menu{ 
-        position: relative;   
-        display: inline-block;
-        width: 193px;
-        height: 274px;
-        background: url('/images/episode_guide/season_menu.png');
-        padding-top: 10px;
-        padding-left: 12px;
-        .selection_indicator{
-          position: absolute;
-          left: 35px;          
-        }
-        .selection_indicator.one{
-          top: 35px;
-        }
-        .selection_indicator.two{
-          top: 75px;
-        }
-        .selection_indicator.three{
-          top: 115px;
-        }
-        .selection_indicator.four{
-          top: 155px;
-        }
-        > div{
-          width: 169px;
-          height: 50px;
-        }
-      }
-    }
     h1,h2{
       text-transform: uppercase;
       font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
       font-size: 20px;      
-    }
+    }  
     
-    #season_description{
+    .season_description{
       float: left;
+      
       h2{ 
         color: #FFF;           
         font-weight: bold;
+        .episode_name{
+          color: #a8a8a8;
+          text-transform: capitalize;
+          font-weight: normal;
+        }
       }
       scrollable{
         width: 40%;

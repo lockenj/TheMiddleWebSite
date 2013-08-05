@@ -1,46 +1,121 @@
 #downloadsPage{
-  door-frame{
+  door-frame{    
     position: relative;
     h1{
       text-transform: uppercase;
       font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
       font-size: 20px;      
     }
-    #downloads_selector{
-      text-align: center;
-      position: absolute;
-      right: 30px;
-      top: 40px;
-      h1 {
-        color: #82b267;
-      }           
-      #downloads_menu{
-        position: relative;
-        width: 193px;
-        height: 274px;
-        background: url('/images/downloads/downloads_menu.png');
-        text-align: center;
-        .selection_indicator{
-          position: absolute;
-          left: 30px;
-          top: 39px;
-        }         
-      }      
-    }
-    #photos{   
-      h1{
-        font-weight: bold;
-      } 
-      width: 72%;
-      .scrollable_window{
-        overflow: hidden;
-        height: 487px;
+    ng-view{
+      width: 100%;
+      overflow-x: hidden;
+      > div{
+        width: 100%;
+        padding-right: 28%;
       }
-      img{
-        border: #82b267 2px solid;                 
-        display: inline-block;
-        margin-right: 5px;
-        margin-bottom: 5px;
+      a{
+        color: #FFF;
+        text-decoration: underline;
+        &:hover{
+          cursor: pointer;
+        }
+      }   
+       
+      #photos,
+      #avatars,
+      #wallpapers{     
+        h1{
+          font-weight: bold;
+        } 
+      }
+      
+      #photos,
+      #wallpapers{
+        img{
+          border: #82b267 2px solid;                 
+          display: inline-block;
+          margin-right: 5px;
+          margin-bottom: 5px;
+          max-width: 210px;
+          height: 158px;
+        }
+      }
+      
+      #photos{              
+        .scrollable_window{
+          overflow: hidden;
+          height: 487px;
+        } 
+        a.photo{
+          text-decoration: none;
+        }       
+      }
+      
+      #avatars{
+        position: relative;  
+        height: 600px;     
+        img{
+           max-width: 48px;
+           height: 48px;
+        }        
+        #download_instructions{
+          margin-top: 30px;
+        }
+        ul {
+          margin-top: 40px;
+          li{
+            margin-bottom: 10px;
+            a.avatar_icon {             
+              text-decoration: none;
+              img{
+                border: 4px #c5c5c5 solid;
+              }
+            }
+          }
+        }
+        .avatar_download_details{
+          display: inline-block;
+          vertical-align: bottom;
+          .avatar_name{
+            text-transform: uppercase;
+            color: #fb5d1a;
+          }
+        }
+        #family_photo{
+          position: absolute;
+          right: 15px;
+          bottom: 0;
+          border: none;
+          width: 449px;
+          max-width: 449px;
+          height: 338px;
+          max-height: 338px;
+        }
+      }
+      
+      #wallpapers{        
+        .scrollable_window{
+          height: 450px;
+        }
+        .wallpaper_item{
+          width: 215px;
+          margin-right: 5px;
+          margin-bottom: 5px;
+          img{
+            display: inline-block;
+            max-width: 215px;
+            height: 165px;
+          }
+          select{
+            width: 100%;
+            margin-bottom: 5px;
+          }
+          &,
+          img,
+          select{
+            display: inline-block;
+          }
+        }
       }
     }
   }

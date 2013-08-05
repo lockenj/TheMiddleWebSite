@@ -29,8 +29,8 @@
 	<body>
     <section id="page">
       <header>        
-        <img src="/images/the_middle_logo.png" />        
-        <img id="times" src="/images/times.png" />
+        <img src="/images/the_middle_logo.png" alt="The Middle - your Every Day family"/>        
+        <img id="times" src="/images/tune_in_time.png" />
         <nav id="main_menu">          
           <ul class="nav navbar-nav">
             <li <?php echoSelectedPageClass(''); ?>> <a href="/">Home</a> </li>
