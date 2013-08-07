@@ -104,6 +104,7 @@ angular.module('scrollable',[])
             if(currentHeight !== latestHeight){
               console.log('Height Changed!!!');
               scope.recalculate(latestHeight);
+              currentHeight = latestHeight;
             }
             detectHeightChange();
           }, 500);
