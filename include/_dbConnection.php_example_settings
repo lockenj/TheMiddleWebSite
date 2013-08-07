@@ -1,8 +1,8 @@
 <?php
   $host = 'localhost';
-  $db = 'test';
+  $db = 'themiddle';
   $user = 'root';
-  $pass = '##EEwrwr';
+  $pass = 'somePass';
 
   $connect = mysql_connect("$host", "$user", "$pass");
   if (!$connect) {

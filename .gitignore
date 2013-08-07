@@ -1,1 +1,2 @@
 compass/.sass_cache/
+include/_dbConnection.php
