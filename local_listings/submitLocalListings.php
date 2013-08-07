@@ -7,8 +7,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/include/_dbConnection.php';
         FROM locations l 
         INNER JOIN station_schedules ss ON (ss.metrocode = l.metroCode) 
         WHERE l.postalCode = '".$_POST['zipcode']."' LIMIT 1";
-        //echo $s; exit();
-    $r = mysql_query($s) or die($s);
+    
+    $r = mysql_query($s) or die("Failed Executing DB Query(ErrorCode => 00001)");
     @$c = mysql_num_rows($r);
     
     if ( $c )
@@ -24,7 +24,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/include/_dbConnection.php';
         GROUP BY runtime1
         ORDER BY runtime1 DESC";
         //echo $s; exit();
-        $r = mysql_query($s) or die($s);
+        $r = mysql_query($s) or die("Failed Executing DB Query(ErrorCode => 00002");
         @$c = mysql_num_rows($r);
         
         echo'<h1>Showtimes for your area are... </h1>';          
