@@ -14,21 +14,57 @@ html{
         #main_menu{
           margin-left: 30px;
           padding-left: 10px;
-          width: 541px;
-          background: url('/images/menu_bar.png') no-repeat center;
+          width: 541px;          
+          background: rgba(255, 255, 255, 0.4);
+          @include box-shadow(rgba(0,0,0,0.2) 3px 3px 5px);
+          @include border-radius(10px);
           ul{
-            width: 519px;       
-            li.active a{
-              background: none;
-              color: #000;
-            }
+            height: 30px;
+            width: 519px;
             li a{
-              font-size: 16px;
-              text-transform: uppercase;            
-              font-weight: bold;
-              padding: 10px 2.5px;        
-              font-family: "HelveticaNeue-Heavy";   
-              color: #ee5f2c; 
+              height: 30px;
+              padding: 0;
+              vertical-align: middle;
+            }                                            
+            .home_nav_item{
+              background: url('/images/main_nav/home.png') no-repeat center center;
+              width: 59px;
+              &.active,
+              &:hover{
+                background: url('/images/main_nav/home_active.png') no-repeat center center;
+              }    
+            }
+            .videos_nav_item{
+              background: url('/images/main_nav/videos.png') no-repeat center center;
+              width: 71px;
+              &.active,
+              &:hover{
+                background: url('/images/main_nav/videos_active.png') no-repeat center center;
+              }    
+            }
+            .characters_nav_item{
+              background: url('/images/main_nav/characters.png') no-repeat center center;
+              width: 124px;
+              &.active,
+              &:hover{
+                background: url('/images/main_nav/characters_active.png') no-repeat center center;
+              }    
+            }
+            .episode_guide_nav_item{
+              background: url('/images/main_nav/episode_guide.png') no-repeat center center;
+              width: 140px;  
+              &.active,
+              &:hover{
+                background: url('/images/main_nav/episode_guide_active.png') no-repeat center center;
+              }                
+            }
+            .downloads_nav_item{
+              background: url('/images/main_nav/downloads.png') no-repeat center center; 
+              width: 114px;
+              &.active,
+              &:hover{
+                background: url('/images/main_nav/downloads_active.png') no-repeat center center;
+              }                 
             }
           }
         }  

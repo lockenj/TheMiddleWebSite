@@ -82,15 +82,33 @@ angular.module('scrollable',[])
         scope.downBtnText = attrs['downbtntext'];
         var scrollableWindowElement = element.find(".scrollable_window");
         scope.setbreakHeight(scrollableWindowElement.height());
+        
+        var currentHeight;
+        
         //After content has been rendered
         $timeout(function () {
             $timeout(function () {
               // This code will run after templateUrl has been loaded, cloned and transformed by directives, and properly rendered by the browser
               var contentElement = element.find(".scrollable_content");
-              var ht = contentElement.height();
-              scope.setContentHeight(ht);
+              currentHeight = contentElement.height();
+              scope.setContentHeight(currentHeight);
             }, 0);
         }, 0);
+        
+        //TODO find a better way to do this in the future
+        function detectHeightChange(){
+          $timeout(function () {
+            // This code will run after templateUrl has been loaded, cloned and transformed by directives, and properly rendered by the browser
+            var contentElement = element.find(".scrollable_content");
+            var latestHeight = contentElement.height();
+            if(currentHeight !== latestHeight){
+              console.log('Height Changed!!!');
+              scope.recalculate(latestHeight);
+            }
+            detectHeightChange();
+          }, 500);
+        }
+        detectHeightChange();
       },
       controller: function($scope){
         $scope.atTop;
@@ -167,7 +185,13 @@ angular.module('scrollable',[])
         
         $scope.setContentHeight = function(ht){
           $scope.contentHeight = ht;
-        }
+        };
+        
+        $scope.recalculate = function(ht){
+          $scope.setContentHeight(ht);
+          setBreakpoints();
+          $scope.currentBreakpoint = 0;
+        };
       }
     };
   });
