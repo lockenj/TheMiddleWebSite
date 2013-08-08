@@ -18,6 +18,7 @@
 		<meta name="description" content="The Middle Weeknights." />
 		<meta name="keywords" content="The Middle Weeknights" />
 		<meta name="robots" content="archive, index, follow" />
+		<meta name="viewport" content="width=1280px">
 		<!-- Render custom META tags -->
 		<?php if(function_exists('renderMeta')){renderMeta();} ?>				
 		<link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
