@@ -4,7 +4,7 @@
       $parentFolderName = ltrim(basename($_SERVER["REQUEST_URI"]),'/');      
       
       if($parentFolderName == $menuItem){
-        echo("class='active'");
+        echo("active");
       }  
     }   
   }
