@@ -12,8 +12,8 @@
       $message = "";
     }
     // recipients
-    //$to  = 'The Middle Support <support@themiddleweeknights.com>';    
-    $to  = 'lockenj@gmail.com';
+    $to  = 'The Middle Support <support@themiddleweeknights.com>';    
+    //$to  = 'lockenj@gmail.com';
     
     // subject
     $subject = 'The Middle Support Request';
