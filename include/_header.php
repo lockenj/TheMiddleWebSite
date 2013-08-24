@@ -31,16 +31,17 @@
     <section id="page">
       <header>        
         <a href="/"><img src="/images/the_middle_logo.png" alt="The Middle - your Every Day family"/></a>        
-        <img id="times" src="/images/tune_in_time.png" />
-        <nav id="main_menu">          
-          <ul class="nav navbar-nav">
-            <li><a href="/" class='home_nav_item <?php echoSelectedPageClass(''); ?>'></a></li>
-            <li><a href="/videos" class='videos_nav_item <?php echoSelectedPageClass('videos'); ?>'></a></li>
-            <li><a href="/characters" class='characters_nav_item <?php echoSelectedPageClass('characters'); ?>'></a></li>
-            <li><a href="/episode_guide" class='episode_guide_nav_item <?php echoSelectedPageClass('episode_guide'); ?>'></a></li>
-            <li><a href="/downloads" class='downloads_nav_item <?php echoSelectedPageClass('downloads'); ?>'></a></li>
-          </ul>
-        </nav>
-      </header>
-      <section id="page_main_content">
-      
+        <div>
+          <tune-in tune-in-times="listingTimes"></tune-in>
+          <nav id="main_menu">          
+            <ul class="nav navbar-nav">
+              <li><a href="/" class='home_nav_item <?php echoSelectedPageClass(''); ?>'></a></li>
+              <li><a href="/videos" class='videos_nav_item <?php echoSelectedPageClass('videos'); ?>'></a></li>
+              <li><a href="/characters" class='characters_nav_item <?php echoSelectedPageClass('characters'); ?>'></a></li>
+              <li><a href="/episode_guide" class='episode_guide_nav_item <?php echoSelectedPageClass('episode_guide'); ?>'></a></li>
+              <li><a href="/downloads" class='downloads_nav_item <?php echoSelectedPageClass('downloads'); ?>'></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>      
+      <section id="page_main_content" data-ng-controller="MainCtrl">                

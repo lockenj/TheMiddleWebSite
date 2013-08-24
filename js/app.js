@@ -197,8 +197,176 @@ angular.module('scrollable',[])
     };
   });
 
-var app = angular.module('tm-app', ['doorFrame','scrollable','jwplayer','ui.bootstrap']);
+var lodash = angular.module('lodash', []);
+lodash.factory('_', function() {
+  return window._; // assumes underscore has already been loaded on the page
+});
 
-app.controller('MainCtrl', function($scope) {
-	
+/**
+ * Attrs:
+ *  tune-in-times: points to array of listings
+ *  config: points to config object
+ * 
+ * Config object:
+ *  startDelay: the number of milliseconds to pause in the start state
+ *  finishDelay: the number of milliseconds to pause in the finished state
+ *  defaultTuneInMessage: message to be displayed if tuneInTimes is not populated
+ **/
+var tuneInModule = angular.module('tuneIn', ['lodash'])
+  .factory('TuneInStatusFctry', function($timeout) {
+    var state;
+    var position = "start";
+    var currentTuneInTimeIndex = -1;
+    var tuneInTimes = ["Check Local Listings"];
+    var animationTimeoutPromise;
+    var startDelay = 2000;
+    var finishDelay = 5000;
+    
+    return {
+        goToStart: function(msg) {
+            position = "start";
+            return this;
+        },
+        goToFinish: function() {
+          position = "finish";
+          return this;
+        },
+        setCurrentTuneInTimes: function(tit){
+          if(!tit || tit.length === 0){
+            tuneInTimes = ["Check Local Listings"];
+          }
+          else{
+            tuneInTimes = tit;
+          }
+        },
+        setFinishDelay: function(delay){
+          finishDelay = delay;
+          return this;
+        },
+        setStartDelay: function(delay){
+          startDelay = delay;
+          return this;
+        },
+        startAnimation: function(){
+          if(!animationTimeoutPromise){
+            this._animate();
+          }
+        },
+        _animate: function(){
+          var self = this;
+          
+          switch(state){
+            case undefined:
+              state = "animating";
+            break;
+          }
+          
+          switch(position){
+            case "start":
+              animationTimeoutPromise = $timeout(function() {
+                var nextIndex = currentTuneInTimeIndex + 1;
+                if(nextIndex >= tuneInTimes.length){
+                  nextIndex = 0;
+                }
+                currentTuneInTimeIndex = nextIndex;
+                self.goToFinish();
+                self._animate();
+              },startDelay);
+            break;
+            case "finish":
+              animationTimeoutPromise = $timeout(function() {
+                self.goToStart();
+                self._animate();
+              },finishDelay);
+            break;
+            default:
+              self.goToStart();
+            break;
+          }
+        },
+        stopAnimation: function(){
+          $timeout.cancel(animationTimeoutPromise);
+          animationTimeoutPromise = undefined;
+          
+          this.goToStart();
+          state = undefined;
+          state = "stopped";
+        },
+        getCurrentTuneInTime: function(){
+          return tuneInTimes[currentTuneInTimeIndex];
+        },
+        getPosition: function(){
+          return position;
+        }
+    }
+  })
+  .directive('tuneIn', function(_,TuneInStatusFctry) {
+    return {
+      restrict: 'E',
+      template: '<p class="tune_in_text" ng-bind="tuneInStatusFctry.getCurrentTuneInTime()" ng-class="tuneInStatusFctry.getPosition()"><p>',
+      scope:{
+        tuneInTimes: "=tuneInTimes",
+        tuneInConfig: "=config",
+      },
+      link: function(scope, element, attrs) { 
+      },
+      controller: function($scope) {
+        function init(){
+          $scope.tuneInStatusFctry = TuneInStatusFctry;
+          //Init tuneInTimes
+          if($scope.tuneInTimes){
+            TuneInStatusFctry.setCurrentTuneInTimes($scope.tuneInTimes); 
+          }
+          
+          //Setup delays
+          if($scope.tuneInConfig){
+            if($scope.tuneInConfig.startDelay){
+              TuneInStatusFctry.setStartDelay($scope.tuneInConfig.startDelay);
+            }
+            if($scope.tuneInConfig.finishDelay){
+              TuneInStatusFctry.setFinishDelay($scope.tuneInConfig.finishDelay);
+            }
+          }
+          
+          //Start the Animation
+          TuneInStatusFctry.startAnimation();
+        }
+               
+        $scope.$watch('tuneInTimes', function (newValue, oldValue) { 
+          TuneInStatusFctry.setCurrentTuneInTimes(newValue);
+        },true);
+        
+        init();
+      }
+    };
+  });
+
+
+/**
+ * MAIN APP
+ */
+var app = angular.module('tm-app', ['doorFrame','scrollable','jwplayer','ui.bootstrap','tuneIn']);
+app.controller('MainCtrl', function($scope, $http, TuneInStatusFctry) {
+  $scope.listings = [];
+  $scope.listingTimes = [];
+  $http({
+    method: 'POST',
+    url: "/local_listings/submitLocalListings.php?json=",
+    /*data: "zipcode=95677",*/
+    headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+	}).success(function(data) {
+	  _.each(data, function(listing){
+	    $scope.listings.push(listing);
+	    var listingDescription = "";
+	    listingDescription += listing.airday1 ? listing.airday1.toLowerCase()+" ": " ";
+	    listingDescription += listing.airtime1 ? listing.airtime1.toLowerCase()+" ": " ";
+	    listingDescription += listing.station_code ? listing.station_code.toUpperCase()+" ": " ";
+	    listingDescription += listing.channel ? listing.channel.toLowerCase(): " ";	  	     
+	    $scope.listingTimes.push(listingDescription);
+	  });
+	  //FIXME shouldn't need this but for now...
+	  TuneInStatusFctry.setCurrentTuneInTimes($scope.listingTimes);
+  }).error(function(data) {
+    console("Grabbing listings Failed",data);
+  });
 });
