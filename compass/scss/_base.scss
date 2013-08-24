@@ -99,3 +99,32 @@ jwplayer{
     display: none;
   }
 }
+
+tune-in{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  .tune_in_text{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    position: absolute;
+    top: 150%;
+    right: 20px;
+
+    -webkit-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+    -moz-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+    -ms-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+    -o-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+    transition: all 1s cubic-bezier(.02, .01, .47, 1);
+    /*Ease In Out Back cubic-bezier(0.680, -0.550, 0.265, 1.550)*/
+    /*Swing cubic-bezier(.02, .01, .47, 1)*/
+    
+    &.start{
+      top: 150%;
+    }
+    &.finish{
+      top: 0;
+    }
+  }
+}
