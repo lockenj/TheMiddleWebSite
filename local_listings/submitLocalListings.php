@@ -74,7 +74,10 @@
       //Grab the Remote IP
       $rip = $_SERVER['REMOTE_ADDR'];
       $ip = ip_address_to_number($rip);
-$ip = "33996345";//TEST
+
+      //TEST
+      //$ip = "33996345";
+
       $query_rs_ipcheck = "SELECT * FROM blocks WHERE startIpNum <= " . $ip . " AND endIpNum >= " . $ip . " LIMIT 1";
     
       $rs_ipcheck = mysql_query($query_rs_ipcheck);
