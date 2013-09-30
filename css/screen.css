@@ -6475,11 +6475,32 @@ html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpape
 html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .wallpaper_item select {
   display: inline-block;
 }
-/* line 119, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
+/* line 3, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page .door_frame_content ng-view {
+  width: 100%;
+  overflow-x: hidden;
+}
+/* line 7, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page .door_frame_content .choice {
+  display: inline-block;
+}
+/* line 9, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page .door_frame_content .choice .choice_image {
+  position: relative;
+  min-height: 101px;
+  min-width: 107px;
+}
+/* line 13, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page .door_frame_content .choice .choice_image img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/* line 120, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html body #page > footer {
   color: #000;
 }
-/* line 121, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
+/* line 122, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html body #page > footer li > a {
   color: #000;
   text-transform: uppercase;
@@ -6487,7 +6508,7 @@ html body #page > footer li > a {
   padding: 0 8px;
   font-size: 12px;
 }
-/* line 127, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
+/* line 128, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html body #page > footer li > a:hover {
   text-decoration: underline;
 }
