@@ -1,0 +1,21 @@
+#sweepstakes_page{
+  .door_frame_content{
+    ng-view{
+      width: 100%;
+      overflow-x: hidden;
+    }
+    .choice{
+      display: inline-block;
+      .choice_image{
+        position: relative;
+        min-height: 101px;      
+        min-width: 107px;
+        img{
+          position: absolute;
+          top: 0px;
+          left: 0px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{     
+  "OFF_splashImage": "/images/characters/mike.png",
+  "siteName": "The Middle",
+  "sweepstakesName": "The Middle Ultimate Getaway",  
+  "wrongChoiceUrl": "/images/sweepstakes/wrong.png",
+  "correctChoiceUrl": "/images/sweepstakes/correct.png",
+  "numberOfAllowedAttempts": 10,
+  "registeredEmail": {
+    "replyTo": "no-reply@themiddleweeknights.com",
+    "from": "no-reply@themiddleweeknights.com",
+    "subject": "The Middle Sweepstakes",
+    "body": "<html><body><table cellpadding='10'><tr><td colspan=2>Thanks for registering for THE MIDDLE ULTIMATE FAN GIVEAWAY SWEEPSTAKES.  The Middle now airs locally twice a night, five times a week!  You can enter twice each weeknight from May 21st to June 1st.<br>For Support during the Sweepstakes please contact support@themiddleweeknights.com</td></tr><tr><td colspan=2>http://www.themiddleweeknights.com/sweepstakes/</td></tr></table></body></html>"
+  },
+  "reRegisteredEmail": {
+    "replyTo": "no-reply@themiddleweeknights.com",
+    "from": "no-reply@themiddleweeknights.com",
+    "subject": "The Middle Sweepstakes",
+    "body": "<html><body><table cellpadding='10'><tr><td colspan=2>Thanks for re-registering for THE MIDDLE ULTIMATE FAN GIVEAWAY SWEEPSTAKES.  The Middle now airs locally twice a night, five times a week!  You can enter twice each weeknight from May 21st to June 1st.<br>For Support during the Sweepstakes please contact support@themiddleweeknights.com</td></tr><tr><td colspan=2>http://www.themiddleweeknights.com/sweepstakes/</td></tr></table></body></html>"
+  },  
+  "choices": [    
+    {
+      "name": "frankie",
+      "imageUrl": "/images/characters/frankie_head.png" 
+    },
+    {
+      "name": "mike",
+      "imageUrl": "/images/characters/mike_head.png" 
+    },
+    {
+      "name": "axl",
+      "imageUrl": "/images/characters/axl_head.png"   
+    },    
+    {
+      "name": "sue",
+      "imageUrl": "/images/characters/sue_head.png"       
+    },
+    {
+      "name": "brick",
+      "imageUrl": "/images/characters/brick_head.png"   
+    }
+  ] 
+}

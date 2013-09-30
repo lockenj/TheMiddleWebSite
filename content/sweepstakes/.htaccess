@@ -1,0 +1,4 @@
+<Files answers.json>
+Order Deny,Allow
+Deny from All
+</Files>

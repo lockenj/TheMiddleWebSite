@@ -1,0 +1,10 @@
+<div id="sweeps_landing">
+  <div class="choice" data-ng-repeat="choice in sweepstakesConfiguration.getChoices()" data-ng-click="sweepstakesConfiguration.choiceSelected(choice)">      
+    <div class="choice_image">
+      <img data-ng-src="{{choice.imageUrl}}" alt="{{choice.name}}"/>
+      <img ng-if="choice.result == 'CORRECT'" data-ng-src="{{sweepstakesConfiguration.getCorrectChoiceUrl()}}" alt="Correct"/>
+      <img ng-if="choice.result == 'WRONG'" data-ng-src="{{sweepstakesConfiguration.getWrongChoiceUrl()}}" alt="Wrong"/>
+    </div>              
+    <h4>{{choice.name}}</h4>
+  </div>
+</div>
