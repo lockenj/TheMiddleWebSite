@@ -1,10 +1,11 @@
 app.controller('VideosCtrl', function($scope,$http) {
   angular.extend($scope, {
-    video: undefined    
+    video: undefined,
+    useSplashScreen: undefined
   });
   
   $http.get("/content/homePage.json").success(function(data) {
-    $scope.video = data.video;
+    angular.extend($scope,data);
   });
   
   

@@ -1,3 +1,15 @@
 {
-  "video": {"name":"Sound Familiar", "file":"/content/videos/Main_SoundFamiliar.mp4", "image":"/images/home/home_page_no_video.jpg"}
+  "OFF_showStartSplashScreen": {
+    "image":"/images/home/home_page_no_video.jpg",
+    "alt":"The Middle - your Every Day family"
+  },
+  "showSplashScreenWhenFinished": {
+    "image":"/images/home/home_page_no_video.jpg",
+    "alt":"The Middle - your Every Day family"
+  },
+  "video": {
+    "name":"Sound Familiar", 
+    "file":"/content/videos/Main_SoundFamiliar.mp4", 
+    "image":"/images/home/home_page_no_video.jpg"
+  }
 }

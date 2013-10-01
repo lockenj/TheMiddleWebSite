@@ -9,10 +9,14 @@ angular.module('jwplayer', [])
         
     return {
       restrict: 'E',
-      template: '<div id="'+id+'" class="jwplayer_content"></div>',
+      transclude: true,
+      template: '<div id="'+id+'" class="jwplayer_content"></div><div ng-transclude ng-if="player.status === true"></div>',
       link: function(scope, element, attrs) { 
         scope.videoWidth = attrs.width;
         scope.videoHeight = attrs.height;
+        scope.player ={
+            status: undefined
+        }
         /*
         var autoStart = false;
         if(attrs.autostart != undefined){
@@ -50,7 +54,14 @@ angular.module('jwplayer', [])
             aspectratio: '16:9',
             fallback: true,
             /*primary: 'flash',*/
-            autostart: startNow
+            autostart: startNow,
+            events: {
+              onComplete: function(){
+                $scope.$apply(function() {
+                  $scope.player.status = true;
+                });
+              }
+            } 
           });
         });
       }
