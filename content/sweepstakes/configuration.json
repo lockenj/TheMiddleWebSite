@@ -1,5 +1,5 @@
 {     
-  "OFF_splashImage": "/images/characters/mike.png",
+  "showSplashScreen": false,
   "siteName": "The Middle",
   "sweepstakesName": "The Middle Ultimate Getaway",  
   "wrongChoiceUrl": "/images/sweepstakes/wrong.png",
@@ -19,24 +19,24 @@
   },  
   "choices": [    
     {
+      "name": "axl",
+      "imageUrl": "/images/sweepstakes/axl.png"   
+    },
+    {
+      "name": "sue",
+      "imageUrl": "/images/sweepstakes/sue.png"       
+    },
+    {
       "name": "frankie",
-      "imageUrl": "/images/characters/frankie_head.png" 
+      "imageUrl": "/images/sweepstakes/frankie.png" 
+    },            
+    {
+      "name": "brick",
+      "imageUrl": "/images/sweepstakes/brick.png"   
     },
     {
       "name": "mike",
-      "imageUrl": "/images/characters/mike_head.png" 
-    },
-    {
-      "name": "axl",
-      "imageUrl": "/images/characters/axl_head.png"   
-    },    
-    {
-      "name": "sue",
-      "imageUrl": "/images/characters/sue_head.png"       
-    },
-    {
-      "name": "brick",
-      "imageUrl": "/images/characters/brick_head.png"   
+      "imageUrl": "/images/sweepstakes/mike.png" 
     }
   ] 
 }

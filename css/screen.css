@@ -6475,26 +6475,173 @@ html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpape
 html body #page > #page_main_content #downloadsPage door-frame ng-view #wallpapers .wallpaper_item select {
   display: inline-block;
 }
-/* line 3, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
-html body #page > #page_main_content #sweepstakes_page .door_frame_content ng-view {
-  width: 100%;
-  overflow-x: hidden;
-}
-/* line 7, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
-html body #page > #page_main_content #sweepstakes_page .door_frame_content .choice {
+/* line 4, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #sweeps_register h1,
+html body #page > #page_main_content #sweepstakes_page #sweeps_register h2 {
   display: inline-block;
+  margin-left: 20px;
 }
-/* line 9, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
-html body #page > #page_main_content #sweepstakes_page .door_frame_content .choice .choice_image {
-  position: relative;
-  min-height: 101px;
-  min-width: 107px;
+/* line 8, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #sweeps_register h2 {
+  text-transform: uppercase;
+}
+/* line 11, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #sweeps_register form {
+  margin-left: 20px;
 }
 /* line 13, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
-html body #page > #page_main_content #sweepstakes_page .door_frame_content .choice .choice_image img {
+html body #page > #page_main_content #sweepstakes_page #sweeps_register form ul {
+  display: inline-block;
+}
+/* line 15, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #sweeps_register form ul.right {
+  vertical-align: top;
+  margin-left: 40px;
+}
+/* line 20, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #sweeps_register form button {
+  margin-top: 20px;
+}
+/* line 27, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page ng-view,
+html body #page > #page_main_content #sweepstakes_page door-frame {
+  width: 100%;
+}
+/* line 30, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page img#pre_sweeps_splash {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  left: 0;
+  top: 0;
+  width: 1767px;
+}
+/* line 36, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page a#sweeps_rules {
+  width: 125px;
+  height: 25px;
+  position: absolute;
+  top: 976px;
+  left: 819px;
+}
+/* line 43, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page a#submit_choice {
+  position: absolute;
+  top: 693px;
+  left: 791px;
+}
+/* line 47, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page a#submit_choice:hover {
+  cursor: pointer;
+}
+/* line 50, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page a#submit_choice img {
+  width: 229px;
+}
+/* line 54, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page a#submit_choice:active img, html body #page > #page_main_content #sweepstakes_page a#submit_choice.enabled img {
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+/* line 58, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+/* line 62, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice {
+  position: absolute;
+}
+/* line 66, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice .choice_image:hover, html body #page > #page_main_content #sweepstakes_page #choices .choice.selected .choice_image {
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+/* line 71, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.axl {
+  top: -2px;
+  left: 9px;
+}
+/* line 74, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.axl .choice_image {
+  width: 192px;
+}
+/* line 78, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.axl img.wrong,
+html body #page > #page_main_content #sweepstakes_page #choices .choice.axl img.correct {
+  position: absolute;
+  top: 46px;
+  left: 46px;
+}
+/* line 84, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.sue {
+  top: 23px;
+  left: 205px;
+}
+/* line 87, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.sue .choice_image {
+  width: 192px;
+}
+/* line 91, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.sue img.wrong,
+html body #page > #page_main_content #sweepstakes_page #choices .choice.sue img.correct {
+  position: absolute;
+  top: 39px;
+  left: 48px;
+}
+/* line 97, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.frankie {
+  top: -15px;
+  left: 399px;
+}
+/* line 100, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.frankie .choice_image {
+  width: 225px;
+}
+/* line 104, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.frankie img.wrong,
+html body #page > #page_main_content #sweepstakes_page #choices .choice.frankie img.correct {
+  position: absolute;
+  top: 65px;
+  left: 59px;
+}
+/* line 110, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.brick {
+  top: 32px;
+  left: 603px;
+}
+/* line 113, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.brick .choice_image {
+  width: 254px;
+}
+/* line 117, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.brick img.wrong,
+html body #page > #page_main_content #sweepstakes_page #choices .choice.brick img.correct {
+  position: absolute;
+  top: 39px;
+  left: 70px;
+}
+/* line 123, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.mike {
+  top: -2px;
+  left: 840px;
+}
+/* line 126, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.mike .choice_image {
+  width: 206px;
+}
+/* line 130, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_sweepstakesPage.scss */
+html body #page > #page_main_content #sweepstakes_page #choices .choice.mike img.wrong,
+html body #page > #page_main_content #sweepstakes_page #choices .choice.mike img.correct {
+  position: absolute;
+  top: 57px;
+  left: 51px;
 }
 /* line 120, /home/jake/Dropbox/WebWork/Workspaces/YepNopeWorkspace/TheMiddle/TheMiddleWebSite/compass/scss/_theme.scss */
 html body #page > footer {

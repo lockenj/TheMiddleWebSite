@@ -1,10 +1,10 @@
 {
   "OFF_showStartSplashScreen": {
-    "image":"/images/home/home_page_no_video.jpg",
+    "image":"/images/sweepstakes/pre_sweeps_player.jpg",
     "alt":"The Middle - your Every Day family"
   },
-  "showSplashScreenWhenFinished": {
-    "image":"/images/home/home_page_no_video.jpg",
+  "OFF_showSplashScreenWhenFinished": {
+    "image":"/images/sweepstakes/pre_sweeps_player.jpg",
     "alt":"The Middle - your Every Day family"
   },
   "video": {

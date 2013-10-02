@@ -1,10 +1,26 @@
 <div id="sweeps_landing">
-  <div class="choice" data-ng-repeat="choice in sweepstakesConfiguration.getChoices()" data-ng-click="sweepstakesConfiguration.choiceSelected(choice)">      
-    <div class="choice_image">
-      <img data-ng-src="{{choice.imageUrl}}" alt="{{choice.name}}"/>
-      <img ng-if="choice.result == 'CORRECT'" data-ng-src="{{sweepstakesConfiguration.getCorrectChoiceUrl()}}" alt="Correct"/>
-      <img ng-if="choice.result == 'WRONG'" data-ng-src="{{sweepstakesConfiguration.getWrongChoiceUrl()}}" alt="Wrong"/>
-    </div>              
-    <h4>{{choice.name}}</h4>
+  <style>
+    body{
+      background: url('/images/sweepstakes/background.jpg') no-repeat center top !important;
+    }
+    ng-view{        
+      position: absolute;
+      left: -393px;
+      top: 180px;
+      width: 1767px
+    }
+  </style>
+  <img id="pre_sweeps_splash" src="/images/sweepstakes/game_play.jpg"/>
+  <a id="sweeps_rules" href="/sweepstakes/rules.php"></a>
+  <a id="sweeps_rules" href="/sweepstakes/rules.php"></a>
+  <div id="choices">
+    <div data-ng-repeat="choice in sweepstakesConfiguration.getChoices()" ng-class="{selected: choice.name==getChosen().name}" class="{{choice.name}} choice" data-ng-click="setChosen(choice)" >            
+      <img class="choice_image" data-ng-src="{{choice.imageUrl}}" alt="{{choice.name}}"/>
+      <img ng-if="choice.result == 'CORRECT'" class="correct" data-ng-src="{{sweepstakesConfiguration.getCorrectChoiceUrl()}}" alt="Correct"/>
+      <img ng-if="choice.result == 'WRONG'" class="wrong" data-ng-src="{{sweepstakesConfiguration.getWrongChoiceUrl()}}" alt="Wrong"/>        
+    </div>
   </div>
+  <a ng-class="{enabled: getChosen()}" id="submit_choice" data-ng-click="choiceSelected(choice)">
+    <img src="/images/sweepstakes/submit.jpg" alt="submit" />
+  </a>
 </div>

@@ -1,21 +1,138 @@
 #sweepstakes_page{
-  .door_frame_content{
-    ng-view{
-      width: 100%;
-      overflow-x: hidden;
-    }
-    .choice{
+  #sweeps_register{
+    h1,
+    h2{
       display: inline-block;
-      .choice_image{
-        position: relative;
-        min-height: 101px;      
-        min-width: 107px;
-        img{
-          position: absolute;
-          top: 0px;
-          left: 0px;
+      margin-left: 20px;
+    }
+    h2{
+      text-transform: uppercase;
+    }
+    form{
+      margin-left: 20px;
+      ul{
+        display: inline-block;
+        &.right{    
+          vertical-align: top;
+          margin-left: 40px;
         }
+      }
+      button{
+        margin-top: 20px;
       }
     }
   }
+  
+  ng-view,
+  door-frame{        
+    width: 100%;
+  }
+  img#pre_sweeps_splash{    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1767px
+  }  
+  a#sweeps_rules{
+    width: 125px;
+    height: 25px;
+    position: absolute;
+    top: 976px;
+    left: 819px;
+  }
+  a#submit_choice{    
+    position: absolute;
+    top: 693px;
+    left: 791px;
+    &:hover{
+      cursor: pointer;
+    }
+    img{
+      width: 229px;
+    }
+    &:active img,
+    &.enabled img{
+      @include scale(1.2); 
+    }
+  }  
+  #choices{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    .choice{     
+      position: absolute;
+
+      .choice_image:hover,
+      &.selected .choice_image{
+        @include scale(1.2);
+        cursor: pointer;
+      }
+      
+      &.axl{             
+        top: -2px;
+        left: 9px;
+        .choice_image{
+          width: 192px;
+        }
+        img.wrong,
+        img.correct{
+          position: absolute;
+          top: 46px;
+          left: 46px;                          
+        }
+      }
+      &.sue{             
+        top: 23px;
+        left: 205px;
+        .choice_image{
+          width: 192px;
+        }
+        img.wrong,
+        img.correct{
+          position: absolute;
+          top: 39px;
+          left: 48px;                          
+        }
+      }
+      &.frankie{             
+        top: -15px;
+        left: 399px;
+        .choice_image{
+          width: 225px;
+        }
+        img.wrong,
+        img.correct{
+          position: absolute;
+          top: 65px;
+          left: 59px;                          
+        }
+      }
+      &.brick{             
+        top: 32px;
+        left: 603px;
+        .choice_image{
+          width: 254px;
+        }
+        img.wrong,
+        img.correct{
+          position: absolute;
+          top: 39px;
+          left: 70px;                          
+        }
+      }
+      &.mike{             
+        top: -2px;
+        left: 840px;
+        .choice_image{
+          width: 206px;
+        }
+        img.wrong,
+        img.correct{
+          position: absolute;
+          top: 57px;
+          left: 51px;                          
+        }
+      }            
+    }
+  }  
 }

@@ -25,7 +25,7 @@
       <title>Support Request:</title>
     </head>
     <body>
-      <p><strong>THE MIDDLE WEEKNIGHTS</strong> SUPPORT REQUEST:</p>
+      <p><strong>THE MIDDLE WEEKDAYS</strong> SUPPORT REQUEST:</p>
       <p>&nbsp;</p>
       <p><strong>Name:</strong></p>
       <p>' . $name . '</p>
