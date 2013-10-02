@@ -235,6 +235,8 @@ function submitResults($requestData){
     return false;
   }
   else{
+    $regEmailSettings = $configurationJson['registeredEmail'];
+    sendEmail($requestData->email,$regEmailSettings['subject'] , $regEmailSettings[from], $regEmailSettings['replyTo'], $regEmailSettings['body']);
     return true;
   }
 }
